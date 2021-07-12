@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg846"
+   version="1.1"
+   viewBox="0 0 29.342291 21.166666"
+   height="21.166666mm"
+   width="29.342291mm">
+  <defs
+     id="defs840" />
+  <metadata
+     id="metadata843">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-88.138383,-73.994048)"
+     id="layer1">
+    <g
+       style="fill:#212529;fill-opacity:1"
+       id="g12"
+       class="logo__mark"
+       transform="matrix(0.26458333,0,0,0.26458333,88.138383,73.676548)">
+      <path
+         style="fill:#212529;fill-opacity:1"
+         id="path4"
+         d="M 110.9,25.5 C 107,28 104.3,29.3 101,31.3 81.8,42.9 63.4,55.8 49,72.8 L 42.2,81.2 21,47.6 c 4.7,3.8 16.5,14.3 21.3,16.7 L 57.8,52.6 C 68.7,45 99.2,28.4 110.9,25.5 Z"
+         class="logo__checkmark" />
+      <path
+         style="fill:#212529;fill-opacity:1"
+         id="path6"
+         d="m 37.2,56 c 1.6,1.3 3.2,2.5 4.5,3.4 C 45.2,42.5 42.3,24.2 33,8.3 48.6,8.1 64.2,7.9 79.7,7.6 c 3.5,7.7 5.5,16 6,24.5 1.4,-0.7 2.7,-1.4 4.1,-2 -0.5,-8.6 -2.9,-18 -7.7,-28.9 -21.3,0 -42.5,0 -63.8,0 13.9,16.4 20.1,36.2 18.9,54.8 z"
+         class="logo__paper-one" />
+      <path
+         style="fill:#212529;fill-opacity:1"
+         id="path8"
+         d="m 34.3,53.7 c 0.4,0.4 0.9,0.7 1.3,1.1 C 35,39.1 29.1,22.9 17.9,9.1 c -3.3,0 -6.6,0 -9.9,0 14.3,13.2 23.1,29.1 26.3,44.6 z"
+         class="logo__paper-two" />
+      <path
+         style="fill:#212529;fill-opacity:1"
+         id="path10"
+         d="m 30.9,50.7 c 0.5,0.4 1,0.8 1.5,1.2 C 28.2,40.2 20.9,28.7 10.5,18.7 c -3.5,0 -7,0 -10.5,0 13.4,9.6 23.7,20.7 30.9,32 z"
+         class="logo__paper-three" />
+    </g>
+    <path
+       transform="scale(0.26458333)"
+       id="path1405"
+       d="m 374.7249,358.5424 c -4.63694,-7.27255 -19.94035,-31.62628 -19.8992,-31.66744 0.0303,-0.0303 2.69866,2.15089 5.92959,4.84717 7.84752,6.54893 11.95937,9.70654 14.05465,10.793 l 0.64789,0.33595 7.83425,-5.92045 c 4.30884,-3.25625 8.95925,-6.65316 10.33425,-7.54868 10.51061,-6.84544 28.67286,-16.58918 40.43054,-21.6903 3.03416,-1.31639 7.345,-2.94891 8.23017,-3.11679 0.59612,-0.11306 0.6085,-0.1053 0.26786,0.16788 -0.19643,0.15753 -1.92411,1.18079 -3.83929,2.2739 -12.78784,7.29887 -26.14812,16.26785 -35.53571,23.85572 -9.60137,7.76067 -16.42454,14.51572 -23.47807,23.24365 -1.46838,1.81696 -3.05344,3.76866 -3.52234,4.3371 l -0.85254,1.03354 z"
+       style="fill:#212529;fill-opacity:1;stroke:none;stroke-width:0.17857143;stroke-opacity:1" />
+  </g>
+</svg>

@@ -1,0 +1,1127 @@
+<!doctype html><html lang=en style=height:100%><head><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval, Santiago, Chile, August 9-13, 2015 - IR Anthology</title><meta name=generator content="Hugo 0.68.3"><link href=/anthology/favicon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/anthology/css/main.min.785a5492fe4643aa88dc452167e28c9c69636a10dd3acb0ad4377e003cf12387.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/anthology/css/academicons.min.css></head><body style=display:flex;flex-flow:column;height:100%><nav class="navbar navbar-expand-sm navbar-light bg-light bg-gradient-light shadow-sm py-0 mb-3 mb-md-4 mb-xl-5"><div id=navbar-container class=container-fluid style=padding-top:15px;padding-bottom:15px><a class=navbar-brand href=/anthology/><span class=d-md-inline><span style=color:#951515><b>IR</b></span> Anthology</span></a><form class="form-inline input-group" style=max-width:800px action=https://ir.chatnoir.eu/? method=get><input id=acl-search-box class=form-control name=q type=search placeholder="Full-text search..." aria-label=Search><div class=input-group-append><button class="btn btn-outline-primary" type=submit><i class="fas fa-search"></i></button></div></form></div></nav><div id=main-container class=container-fluid><section id=main class=col-12><h2 id=title>Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval, Santiago, Chile, August 9-13, 2015</h2><p class=lead><a href=/anthology/people/r/ricardo+baeza-yates/>Ricardo Baeza-Yates</a>,
+<a href=/anthology/people/m/mounia+lalmas/>Mounia Lalmas</a>,
+<a href=/anthology/people/a/alistair+moffat/>Alistair Moffat</a>,
+<a href=/anthology/people/b/berthier+a.+ribeiro-neto/>Berthier A. Ribeiro-Neto</a>
+<span class=text-muted>(Editors)</span><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><dl><dt>Anthology ID:</dt><dd>2015.sigirconf_conference-2015</dd><dt>Year:</dt><dd>2015</dd><dt>Venue:</dt><dd><a href=/anthology/venues/sigirconf_conference/>sigirconf_conference</a></dd><dt>Publisher:</dt><dd>ACM</dd><dt>URL:</dt><dd><a href=https://doi.org/10.1145/2766462>https://doi.org/10.1145/2766462</a></dd><dt>DOI:</dt><dd><a href=https://dx.doi.org/10.1145/2766462 title="To the current version of the paper by DOI">10.1145/2766462</a></dd><dt>DBLP:</dt><dd><a href=https://dblp.org/rec/conf/sigir/2015.html title="DBLP paper page">conf/sigir/2015</a></dd><dt class=acl-button-row>DBLP bib files:</dt><dd class=acl-button-row><a class="btn btn-secondary btn-sm" href="https://dblp.org/rec/conf/sigir/2015.bib?param=1">BibTeX</a>
+<a class="btn btn-secondary btn-sm" href=https://dblp.org/rec/conf/sigir/2015.ris>RIS</a>
+<a class="btn btn-secondary btn-sm" href=https://dblp.org/rec/conf/sigir/2015.nt>RDF N-Triples</a>
+<a class="btn btn-secondary btn-sm" href=https://dblp.org/rec/conf/sigir/2015.rdf>RDF/XML</a>
+<a class="btn btn-secondary btn-sm" href=https://dblp.org/rec/conf/sigir/2015.xml>XML</a>
+<button type=button class="btn btn-clipboard btn-secondary btn-sm d-none"><i class="far fa-clipboard pr-2"></i>Copy BibTeX to Clipboard</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-secondary" href="https://dblp.org/rec/conf/sigir/2015.bib?param=1" title="Export 'Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval, Santiago, Chile, August 9-13, 2015' to bib format"><i class="fas fa-file-export"></i><span class="pl-2 transform-lower-sm">Bib</span><span class="d-none d-sm-inline">TeX</span></a>
+<a class="btn btn-secondary" href="https://scholar.google.com/scholar?q=Proceedings+of+the+38th+International+ACM+SIGIR+Conference+on+Research+and+Development+in+Information+Retrieval%2C+Santiago%2C+Chile%2C+August+9-13%2C+2015" title="Search for 'Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval, Santiago, Chile, August 9-13, 2015' on Google Scholar"><i class="ai ai-google-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Google Scholar</span></a>
+<a class="btn btn-secondary" href="https://academic.microsoft.com/search?q=Proceedings+of+the+38th+International+ACM+SIGIR+Conference+on+Research+and+Development+in+Information+Retrieval%2C+Santiago%2C+Chile%2C+August+9-13%2C+2015" title="Search for 'Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval, Santiago, Chile, August 9-13, 2015' on Microsoft Academic Search"><img style=max-width:20px src=/anthology/images/microsoftacademic-logo.svg></img><span class="pl-sm-2 d-none d-sm-inline">Microsoft Academic</span></a>
+<a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=Proceedings+of+the+38th+International+ACM+SIGIR+Conference+on+Research+and+Development+in+Information+Retrieval%2C+Santiago%2C+Chile%2C+August+9-13%2C+2015" title="Search for 'Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval, Santiago, Chile, August 9-13, 2015' on Semantic Scholar"><img style=max-width:20px src=/anthology/images/sematicscholar-logo.svg></img><span class="pl-sm-2 d-none d-sm-inline">Semantic Scholar</span></a></div></div><hr><div><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/2015.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.0/>Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval, Santiago, Chile, August 9-13, 2015</a></strong><br></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767854 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Belkin15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.1/>Salton Award Lecture: People, Interacting with Information</a></strong><br><a href=/anthology/people/n/nicholas+j.+belkin/>Nicholas J. Belkin</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767702 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Mitra15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.2/>Exploring Session Context using Distributed Representations of Queries and Reformulations</a></strong><br><a href=/anthology/people/b/bhaskar+mitra/>Bhaskar Mitra</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767703 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/EickhoffDT15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.3/>An Eye-Tracking Study of Query Reformulation</a></strong><br><a href=/anthology/people/c/carsten+eickhoff/>Carsten Eickhoff</a>
+|
+<a href=/anthology/people/s/sebastian+dungs/>Sebastian Dungs</a>
+|
+<a href=/anthology/people/v/vu+tran+0001/>Vu Tran</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767741 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/CapraACV15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.4/>Differences in the Use of Search Assistance for Tasks of Varying Complexity</a></strong><br><a href=/anthology/people/r/robert+capra/>Robert Capra</a>
+|
+<a href=/anthology/people/j/jaime+arguello/>Jaime Arguello</a>
+|
+<a href=/anthology/people/a/anita+crescenzi/>Anita Crescenzi</a>
+|
+<a href=/anthology/people/e/emily+vardell/>Emily Vardell</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767715 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/OdijkMSR15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.5/>Dynamic Query Modeling for Related Content Finding</a></strong><br><a href=/anthology/people/d/daan+odijk/>Daan Odijk</a>
+|
+<a href=/anthology/people/e/edgar+meij/>Edgar Meij</a>
+|
+<a href=/anthology/people/i/isaac+sijaranamual/>Isaac Sijaranamual</a>
+|
+<a href=/anthology/people/m/maarten+de+rijke/>Maarten de Rijke</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767755 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/McAuleyTSH15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.6/>Image-Based Recommendations on Styles and Substitutes</a></strong><br><a href=/anthology/people/j/julian+j.+mcauley/>Julian J. McAuley</a>
+|
+<a href=/anthology/people/c/christopher+targett/>Christopher Targett</a>
+|
+<a href=/anthology/people/q/qinfeng+shi/>Qinfeng Shi</a>
+|
+<a href=/anthology/people/a/anton+van+den+hengel/>Anton van den Hengel</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767725 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/PanYLNM15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.7/>Semi-supervised Hashing with Semantic Confidence for Large Scale Visual Search</a></strong><br><a href=/anthology/people/y/yingwei+pan/>Yingwei Pan</a>
+|
+<a href=/anthology/people/t/ting+yao/>Ting Yao</a>
+|
+<a href=/anthology/people/h/houqiang+li/>Houqiang Li</a>
+|
+<a href=/anthology/people/c/chong-wah+ngo/>Chong-Wah Ngo</a>
+|
+<a href=/anthology/people/t/tao+mei+0001/>Tao Mei</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767708 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/YunHER15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.8/>Optimal Aggregation Policy for Reducing Tail Latency of Web Search</a></strong><br><a href=/anthology/people/j/jeong-min+yun/>Jeong-Min Yun</a>
+|
+<a href=/anthology/people/y/yuxiong+he/>Yuxiong He</a>
+|
+<a href=/anthology/people/s/sameh+elnikety/>Sameh Elnikety</a>
+|
+<a href=/anthology/people/s/shaolei+ren/>Shaolei Ren</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767733 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/LuccheseNOPTV15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.9/>QuickScorer: A Fast Algorithm to Rank Documents with Additive Ensembles of Regression Trees</a></strong><br><a href=/anthology/people/c/claudio+lucchese/>Claudio Lucchese</a>
+|
+<a href=/anthology/people/f/franco+maria+nardini/>Franco Maria Nardini</a>
+|
+<a href=/anthology/people/s/salvatore+orlando+0001/>Salvatore Orlando</a>
+|
+<a href=/anthology/people/r/raffaele+perego+0001/>Raffaele Perego</a>
+|
+<a href=/anthology/people/n/nicola+tonellotto/>Nicola Tonellotto</a>
+|
+<a href=/anthology/people/r/rossano+venturini/>Rossano Venturini</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767720 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/YuM15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.10/>High Quality Graph-Based Similarity Search</a></strong><br><a href=/anthology/people/w/weiren+yu/>Weiren Yu</a>
+|
+<a href=/anthology/people/j/julie+ann+mccann/>Julie Ann McCann</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767713 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/RenR15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.11/>Summarizing Contrastive Themes via Hierarchical Non-Parametric Processes</a></strong><br><a href=/anthology/people/z/zhaochun+ren/>Zhaochun Ren</a>
+|
+<a href=/anthology/people/m/maarten+de+rijke/>Maarten de Rijke</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767749 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/LipaniLH15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.12/>Splitting Water: Precision and Anti-Precision to Reduce Pool Bias</a></strong><br><a href=/anthology/people/a/aldo+lipani/>Aldo Lipani</a>
+|
+<a href=/anthology/people/m/mihai+lupu/>Mihai Lupu</a>
+|
+<a href=/anthology/people/a/allan+hanbury/>Allan Hanbury</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767710 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/XiaXLGC15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.13/>Learning Maximal Marginal Relevance Model via Directly Optimizing Diversity Evaluation Measures</a></strong><br><a href=/anthology/people/l/long+xia/>Long Xia</a>
+|
+<a href=/anthology/people/j/jun+xu+0001/>Jun Xu</a>
+|
+<a href=/anthology/people/y/yanyan+lan/>Yanyan Lan</a>
+|
+<a href=/anthology/people/j/jiafeng+guo/>Jiafeng Guo</a>
+|
+<a href=/anthology/people/x/xueqi+cheng/>Xueqi Cheng</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767723 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/LiDDCZB15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.14/>Analyzing User's Sequential Behavior in Query Auto-Completion via Markov Processes</a></strong><br><a href=/anthology/people/l/liangda+li/>Liangda Li</a>
+|
+<a href=/anthology/people/h/hongbo+deng/>Hongbo Deng</a>
+|
+<a href=/anthology/people/a/anlei+dong/>Anlei Dong</a>
+|
+<a href=/anthology/people/y/yi+chang+0001/>Yi Chang</a>
+|
+<a href=/anthology/people/h/hongyuan+zha/>Hongyuan Zha</a>
+|
+<a href=/anthology/people/r/ricardo+baeza-yates/>Ricardo Baeza-Yates</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767731 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/HarveyHE15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.15/>Learning by Example: Training Users with High-quality Query Suggestions</a></strong><br><a href=/anthology/people/m/morgan+harvey/>Morgan Harvey</a>
+|
+<a href=/anthology/people/c/claudia+hauff/>Claudia Hauff</a>
+|
+<a href=/anthology/people/d/david+elsweiler/>David Elsweiler</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767697 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ZhangGKDDCGH15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.16/>adaQAC: Adaptive Query Auto-Completion via Implicit Negative Feedback</a></strong><br><a href=/anthology/people/a/aston+zhang/>Aston Zhang</a>
+|
+<a href=/anthology/people/a/amit+goyal+0001/>Amit Goyal</a>
+|
+<a href=/anthology/people/w/weize+kong/>Weize Kong</a>
+|
+<a href=/anthology/people/h/hongbo+deng/>Hongbo Deng</a>
+|
+<a href=/anthology/people/a/anlei+dong/>Anlei Dong</a>
+|
+<a href=/anthology/people/y/yi+chang+0001/>Yi Chang</a>
+|
+<a href=/anthology/people/c/carl+a.+gunter/>Carl A. Gunter</a>
+|
+<a href=/anthology/people/j/jiawei+han+0001/>Jiawei Han</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767737 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/TranTCN15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.17/>A Random Walk Model for Optimization of Search Impact in Web Frontier Ranking</a></strong><br><a href=/anthology/people/g/giang+tran/>Giang Tran</a>
+|
+<a href=/anthology/people/a/ata+turk/>Ata Turk</a>
+|
+<a href=/anthology/people/b/berkant+barla+cambazoglu/>Berkant Barla Cambazoglu</a>
+|
+<a href=/anthology/people/w/wolfgang+nejdl/>Wolfgang Nejdl</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767735 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/HelmerN15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.18/>A Similarity Measure for Weaving Patterns in Textiles</a></strong><br><a href=/anthology/people/s/sven+helmer/>Sven Helmer</a>
+|
+<a href=/anthology/people/v/vuong+minh+ngo/>Vuong Minh Ngo</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767704 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/TrevisiolABB15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.19/>Local Ranking Problem on the BrowseGraph</a></strong><br><a href=/anthology/people/m/michele+trevisiol/>Michele Trevisiol</a>
+|
+<a href=/anthology/people/l/luca+maria+aiello/>Luca Maria Aiello</a>
+|
+<a href=/anthology/people/p/paolo+boldi/>Paolo Boldi</a>
+|
+<a href=/anthology/people/r/roi+blanco/>Roi Blanco</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767732 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/KellyA15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.20/>How many results per page?: A Study of SERP Size, Search Behavior and User Experience</a></strong><br><a href=/anthology/people/d/diane+kelly+0001/>Diane Kelly</a>
+|
+<a href=/anthology/people/l/leif+azzopardi/>Leif Azzopardi</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767714 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/LiuLZ0M15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.21/>Influence of Vertical Result in Web Search Examination</a></strong><br><a href=/anthology/people/z/zeyang+liu/>Zeyang Liu</a>
+|
+<a href=/anthology/people/y/yiqun+liu+0001/>Yiqun Liu</a>
+|
+<a href=/anthology/people/k/ke+zhou+0003/>Ke Zhou</a>
+|
+<a href=/anthology/people/m/min+zhang+0006/>Min Zhang</a>
+|
+<a href=/anthology/people/s/shaoping+ma/>Shaoping Ma</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767719 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Barreda-Angeles15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.22/>Unconscious Physiological Effects of Search Latency on Users and Their Click Behaviour</a></strong><br><a href=/anthology/people/m/miguel+barreda-%C3%A1ngeles/>Miguel Barreda-Ángeles</a>
+|
+<a href=/anthology/people/i/ioannis+arapakis/>Ioannis Arapakis</a>
+|
+<a href=/anthology/people/x/xiao+bai+0002/>Xiao Bai</a>
+|
+<a href=/anthology/people/b/berkant+barla+cambazoglu/>Berkant Barla Cambazoglu</a>
+|
+<a href=/anthology/people/a/alexandre+pereda-ba%C3%B1os/>Alexandre Pereda-Baños</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767726 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/SongNZAC15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.23/>Multiple Social Network Learning and Its Application in Volunteerism Tendency Prediction</a></strong><br><a href=/anthology/people/x/xuemeng+song/>Xuemeng Song</a>
+|
+<a href=/anthology/people/l/liqiang+nie/>Liqiang Nie</a>
+|
+<a href=/anthology/people/l/luming+zhang/>Luming Zhang</a>
+|
+<a href=/anthology/people/m/mohammad+akbari+0001/>Mohammad Akbari</a>
+|
+<a href=/anthology/people/t/tat-seng+chua/>Tat-Seng Chua</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767701 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/SedhaiS15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.24/>HSpam14: A Collection of 14 Million Tweets for Hashtag-Oriented Spam Research</a></strong><br><a href=/anthology/people/s/surendra+sedhai/>Surendra Sedhai</a>
+|
+<a href=/anthology/people/a/aixin+sun/>Aixin Sun</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767742 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/FayaziLCS15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.25/>Uncovering Crowdsourced Manipulation of Online Reviews</a></strong><br><a href=/anthology/people/a/amir+fayazi/>Amir Fayazi</a>
+|
+<a href=/anthology/people/k/kyumin+lee/>Kyumin Lee</a>
+|
+<a href=/anthology/people/j/james+caverlee/>James Caverlee</a>
+|
+<a href=/anthology/people/a/anna+cinzia+squicciarini/>Anna Cinzia Squicciarini</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767734 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/BastBH15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.26/>Relevance Scores for Triples from Type-Like Relations</a></strong><br><a href=/anthology/people/h/hannah+bast/>Hannah Bast</a>
+|
+<a href=/anthology/people/b/bj%C3%B6rn+buchhold/>Björn Buchhold</a>
+|
+<a href=/anthology/people/e/elmar+haussmann/>Elmar Haussmann</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767756 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ZhiltsovKN15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.27/>Fielded Sequential Dependence Model for Ad-Hoc Entity Retrieval in the Web of Data</a></strong><br><a href=/anthology/people/n/nikita+zhiltsov/>Nikita Zhiltsov</a>
+|
+<a href=/anthology/people/a/alexander+kotov/>Alexander Kotov</a>
+|
+<a href=/anthology/people/f/fedor+nikolaev/>Fedor Nikolaev</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767724 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ReinandaMR15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.28/>Mining, Ranking and Recommending Entity Aspects</a></strong><br><a href=/anthology/people/r/ridho+reinanda/>Ridho Reinanda</a>
+|
+<a href=/anthology/people/e/edgar+meij/>Edgar Meij</a>
+|
+<a href=/anthology/people/m/maarten+de+rijke/>Maarten de Rijke</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767730 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/GrotovWR15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.29/>Bayesian Ranker Comparison Based on Historical User Interactions</a></strong><br><a href=/anthology/people/a/artem+grotov/>Artem Grotov</a>
+|
+<a href=/anthology/people/s/shimon+whiteson/>Shimon Whiteson</a>
+|
+<a href=/anthology/people/m/maarten+de+rijke/>Maarten de Rijke</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767712 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/WangLWZNM15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.30/>Incorporating Non-sequential Behavior into Click Models</a></strong><br><a href=/anthology/people/c/chao+wang+0049/>Chao Wang</a>
+|
+<a href=/anthology/people/y/yiqun+liu+0001/>Yiqun Liu</a>
+|
+<a href=/anthology/people/m/meng+wang+0001/>Meng Wang</a>
+|
+<a href=/anthology/people/k/ke+zhou+0003/>Ke Zhou</a>
+|
+<a href=/anthology/people/j/jian-yun+nie/>Jian-Yun Nie</a>
+|
+<a href=/anthology/people/s/shaoping+ma/>Shaoping Ma</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767740 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/HeBVAR15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.31/>Untangling Result List Refinement and Ranking Quality: a Framework for Evaluation and Prediction</a></strong><br><a href=/anthology/people/j/jiyin+he/>Jiyin He</a>
+|
+<a href=/anthology/people/m/marc+bron/>Marc Bron</a>
+|
+<a href=/anthology/people/a/arjen+p.+de+vries/>Arjen P. de Vries</a>
+|
+<a href=/anthology/people/l/leif+azzopardi/>Leif Azzopardi</a>
+|
+<a href=/anthology/people/m/maarten+de+rijke/>Maarten de Rijke</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767718 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ChenLZLS15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.32/>WEMAREC: Accurate and Scalable Recommendation through Weighted and Ensemble Matrix Approximation</a></strong><br><a href=/anthology/people/c/chao+chen+0016/>Chao Chen</a>
+|
+<a href=/anthology/people/d/dongsheng+li+0002/>Dongsheng Li</a>
+|
+<a href=/anthology/people/y/yingying+zhao/>Yingying Zhao</a>
+|
+<a href=/anthology/people/q/qin+lv/>Qin Lv</a>
+|
+<a href=/anthology/people/l/li+shang/>Li Shang</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767716 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/VolkovsY15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.33/>Effective Latent Models for Binary Feedback in Recommender Systems</a></strong><br><a href=/anthology/people/m/maksims+volkovs/>Maksims Volkovs</a>
+|
+<a href=/anthology/people/g/guang+wei+yu/>Guang Wei Yu</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767707 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/TangJLZL15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.34/>Personalized Recommendation via Parameter-Free Contextual Bandits</a></strong><br><a href=/anthology/people/l/liang+tang/>Liang Tang</a>
+|
+<a href=/anthology/people/y/yexi+jiang/>Yexi Jiang</a>
+|
+<a href=/anthology/people/l/lei+li+0001/>Lei Li</a>
+|
+<a href=/anthology/people/c/chunqiu+zeng/>Chunqiu Zeng</a>
+|
+<a href=/anthology/people/t/tao+li+0001/>Tao Li</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767743 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/CanutoGSRM15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.35/>An Efficient and Scalable MetaFeature-based Document Classification Approach based on Massively Parallel Computing</a></strong><br><a href=/anthology/people/s/s%C3%A9rgio+d.+canuto/>Sérgio D. Canuto</a>
+|
+<a href=/anthology/people/m/marcos+andr%C3%A9+gon%C3%A7alves/>Marcos André Gonçalves</a>
+|
+<a href=/anthology/people/w/wisllay+m.+v.+dos+santos/>Wisllay M. V. dos Santos</a>
+|
+<a href=/anthology/people/t/thierson+couto+rosa/>Thierson Couto Rosa</a>
+|
+<a href=/anthology/people/w/wellington+martins/>Wellington Martins</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767693 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/HuangWLMCV15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.36/>Listwise Collaborative Filtering</a></strong><br><a href=/anthology/people/s/shanshan+huang/>Shanshan Huang</a>
+|
+<a href=/anthology/people/s/shuaiqiang+wang/>Shuaiqiang Wang</a>
+|
+<a href=/anthology/people/t/tie-yan+liu/>Tie-Yan Liu</a>
+|
+<a href=/anthology/people/j/jun+ma+0001/>Jun Ma</a>
+|
+<a href=/anthology/people/z/zhumin+chen/>Zhumin Chen</a>
+|
+<a href=/anthology/people/j/jari+veijalainen/>Jari Veijalainen</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767747 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/SallesGRR15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.37/>BROOF: Exploiting Out-of-Bag Errors, Boosting and Random Forests for Effective Automated Classification</a></strong><br><a href=/anthology/people/t/thiago+salles/>Thiago Salles</a>
+|
+<a href=/anthology/people/m/marcos+andr%C3%A9+gon%C3%A7alves/>Marcos André Gonçalves</a>
+|
+<a href=/anthology/people/v/victor+rodrigues/>Victor Rodrigues</a>
+|
+<a href=/anthology/people/l/leonardo+c.+da+rocha+0001/>Leonardo C. da Rocha</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767752 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/VulicM15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.38/>Monolingual and Cross-Lingual Information Retrieval Models Based on (Bilingual) Word Embeddings</a></strong><br><a href=/anthology/people/i/ivan+vulic/>Ivan Vulic</a>
+|
+<a href=/anthology/people/m/marie-francine+moens/>Marie-Francine Moens</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767738 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/SeverynM15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.39/>Learning to Rank Short Text Pairs with Convolutional Deep Neural Networks</a></strong><br><a href=/anthology/people/a/aliaksei+severyn/>Aliaksei Severyn</a>
+|
+<a href=/anthology/people/a/alessandro+moschitti/>Alessandro Moschitti</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767709 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/GrbovicDRSB15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.40/>Context- and Content-aware Embeddings for Query Rewriting in Sponsored Search</a></strong><br><a href=/anthology/people/m/mihajlo+grbovic/>Mihajlo Grbovic</a>
+|
+<a href=/anthology/people/n/nemanja+djuric/>Nemanja Djuric</a>
+|
+<a href=/anthology/people/v/vladan+radosavljevic/>Vladan Radosavljevic</a>
+|
+<a href=/anthology/people/f/fabrizio+silvestri/>Fabrizio Silvestri</a>
+|
+<a href=/anthology/people/n/narayan+bhamidipati/>Narayan Bhamidipati</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767748 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ParkKZG15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.41/>Retrieval of Relevant Opinion Sentences for New Products</a></strong><br><a href=/anthology/people/d/dae+hoon+park/>Dae Hoon Park</a>
+|
+<a href=/anthology/people/h/hyun+duk+kim/>Hyun Duk Kim</a>
+|
+<a href=/anthology/people/c/chengxiang+zhai/>ChengXiang Zhai</a>
+|
+<a href=/anthology/people/l/lifan+guo/>Lifan Guo</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767694 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/WangGLXWC15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.42/>Learning Hierarchical Representation Model for NextBasket Recommendation</a></strong><br><a href=/anthology/people/p/pengfei+wang/>Pengfei Wang</a>
+|
+<a href=/anthology/people/j/jiafeng+guo/>Jiafeng Guo</a>
+|
+<a href=/anthology/people/y/yanyan+lan/>Yanyan Lan</a>
+|
+<a href=/anthology/people/j/jun+xu+0001/>Jun Xu</a>
+|
+<a href=/anthology/people/s/shengxian+wan/>Shengxian Wan</a>
+|
+<a href=/anthology/people/x/xueqi+cheng/>Xueqi Cheng</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767758 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/YangKML15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.43/>Parametric and Non-parametric User-aware Sentiment Topic Models</a></strong><br><a href=/anthology/people/z/zaihan+yang/>Zaihan Yang</a>
+|
+<a href=/anthology/people/a/alexander+kotov/>Alexander Kotov</a>
+|
+<a href=/anthology/people/a/aravind+mohan/>Aravind Mohan</a>
+|
+<a href=/anthology/people/s/shiyong+lu/>Shiyong Lu</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767739 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/FoleyBJ15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.44/>Learning to Extract Local Events from the Web</a></strong><br><a href=/anthology/people/j/john+foley/>John Foley</a>
+|
+<a href=/anthology/people/m/michael+bendersky/>Michael Bendersky</a>
+|
+<a href=/anthology/people/v/vanja+josifovski/>Vanja Josifovski</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767722 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/LiCLPK15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.45/>Rank-GeoFM: A Ranking based Geographical Factorization Method for Point of Interest Recommendation</a></strong><br><a href=/anthology/people/x/xutao+li/>Xutao Li</a>
+|
+<a href=/anthology/people/g/gao+cong/>Gao Cong</a>
+|
+<a href=/anthology/people/x/xiaoli+li+0001/>Xiaoli Li</a>
+|
+<a href=/anthology/people/t/tuan-anh+nguyen+pham/>Tuan-Anh Nguyen Pham</a>
+|
+<a href=/anthology/people/s/shonali+krishnaswamy/>Shonali Krishnaswamy</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767711 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ZhangC15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.46/>GeoSoCa: Exploiting Geographical, Social and Categorical Correlations for Point-of-Interest Recommendations</a></strong><br><a href=/anthology/people/j/jia-dong+zhang/>Jia-Dong Zhang</a>
+|
+<a href=/anthology/people/c/chi-yin+chow/>Chi-Yin Chow</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767706 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/KharitonovMSO15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.47/>Optimised Scheduling of Online Experiments</a></strong><br><a href=/anthology/people/e/eugene+kharitonov/>Eugene Kharitonov</a>
+|
+<a href=/anthology/people/c/craig+macdonald/>Craig Macdonald</a>
+|
+<a href=/anthology/people/p/pavel+serdyukov/>Pavel Serdyukov</a>
+|
+<a href=/anthology/people/i/iadh+ounis/>Iadh Ounis</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767695 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/SchuthHR15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.48/>Predicting Search Satisfaction Metrics with Interleaved Comparisons</a></strong><br><a href=/anthology/people/a/anne+schuth/>Anne Schuth</a>
+|
+<a href=/anthology/people/k/katja+hofmann/>Katja Hofmann</a>
+|
+<a href=/anthology/people/f/filip+radlinski/>Filip Radlinski</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767729 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/KharitonovVMSO15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.49/>Sequential Testing for Early Stopping of Online Experiments</a></strong><br><a href=/anthology/people/e/eugene+kharitonov/>Eugene Kharitonov</a>
+|
+<a href=/anthology/people/a/aleksandr+vorobev/>Aleksandr Vorobev</a>
+|
+<a href=/anthology/people/c/craig+macdonald/>Craig Macdonald</a>
+|
+<a href=/anthology/people/p/pavel+serdyukov/>Pavel Serdyukov</a>
+|
+<a href=/anthology/people/i/iadh+ounis/>Iadh Ounis</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767745 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/LagunA15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.50/>Inferring Searcher Attention by Jointly Modeling User Interactions and Content Salience</a></strong><br><a href=/anthology/people/d/dmitry+lagun/>Dmitry Lagun</a>
+|
+<a href=/anthology/people/e/eugene+agichtein/>Eugene Agichtein</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767721 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/LiuCTS0MZ15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.51/>Different Users, Different Opinions: Predicting Search Satisfaction with Mouse Movement Information</a></strong><br><a href=/anthology/people/y/yiqun+liu+0001/>Yiqun Liu</a>
+|
+<a href=/anthology/people/y/ye+chen/>Ye Chen</a>
+|
+<a href=/anthology/people/j/jinhui+tang/>Jinhui Tang</a>
+|
+<a href=/anthology/people/j/jiashen+sun/>Jiashen Sun</a>
+|
+<a href=/anthology/people/m/min+zhang+0006/>Min Zhang</a>
+|
+<a href=/anthology/people/s/shaoping+ma/>Shaoping Ma</a>
+|
+<a href=/anthology/people/x/xuan+zhu/>Xuan Zhu</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767757 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/KongLLZCA15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.52/>Predicting Search Intent Based on Pre-Search Context</a></strong><br><a href=/anthology/people/w/weize+kong/>Weize Kong</a>
+|
+<a href=/anthology/people/r/rui+li/>Rui Li</a>
+|
+<a href=/anthology/people/j/jie+luo/>Jie Luo</a>
+|
+<a href=/anthology/people/a/aston+zhang/>Aston Zhang</a>
+|
+<a href=/anthology/people/y/yi+chang+0001/>Yi Chang</a>
+|
+<a href=/anthology/people/j/james+allan/>James Allan</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767744 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/YangN15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.53/>Leveraging Procedural Knowledge for Task-oriented Search</a></strong><br><a href=/anthology/people/z/zi+yang/>Zi Yang</a>
+|
+<a href=/anthology/people/e/eric+nyberg/>Eric Nyberg</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767736 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/WhiteA15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.54/>Personalizing Search on Shared Devices</a></strong><br><a href=/anthology/people/r/ryen+w.+white/>Ryen W. White</a>
+|
+<a href=/anthology/people/a/ahmed+hassan+awadallah/>Ahmed Hassan Awadallah</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767759 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ParkLZW15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.55/>Leveraging User Reviews to Improve Accuracy for Mobile App Retrieval</a></strong><br><a href=/anthology/people/d/dae+hoon+park/>Dae Hoon Park</a>
+|
+<a href=/anthology/people/m/mengwen+liu/>Mengwen Liu</a>
+|
+<a href=/anthology/people/c/chengxiang+zhai/>ChengXiang Zhai</a>
+|
+<a href=/anthology/people/h/haohong+wang/>Haohong Wang</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767853 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Zhai15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.56/>Towards a Game-Theoretic Framework for Information Retrieval</a></strong><br><a href=/anthology/people/c/chengxiang+zhai/>ChengXiang Zhai</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767753 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/MehrotraY15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.57/>Representative & Informative Query Selection for Learning to Rank using Submodular Functions</a></strong><br><a href=/anthology/people/r/rishabh+mehrotra/>Rishabh Mehrotra</a>
+|
+<a href=/anthology/people/e/emine+yilmaz/>Emine Yilmaz</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767754 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/RoegiestCCG15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.58/>Impact of Surrogate Assessments on High-Recall Retrieval</a></strong><br><a href=/anthology/people/a/adam+roegiest/>Adam Roegiest</a>
+|
+<a href=/anthology/people/g/gordon+v.+cormack/>Gordon V. Cormack</a>
+|
+<a href=/anthology/people/c/charles+l.+a.+clarke/>Charles L. A. Clarke</a>
+|
+<a href=/anthology/people/m/maura+r.+grossman/>Maura R. Grossman</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767760 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/TurpinSMM15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.59/>The Benefits of Magnitude Estimation Relevance Assessments for Information Retrieval Evaluation</a></strong><br><a href=/anthology/people/a/andrew+turpin/>Andrew Turpin</a>
+|
+<a href=/anthology/people/f/falk+scholer/>Falk Scholer</a>
+|
+<a href=/anthology/people/s/stefano+mizzaro/>Stefano Mizzaro</a>
+|
+<a href=/anthology/people/e/eddy+maddalena/>Eddy Maddalena</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767700 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ZhengC15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.60/>Learning to Reweight Terms with Distributed Representations</a></strong><br><a href=/anthology/people/g/guoqing+zheng/>Guoqing Zheng</a>
+|
+<a href=/anthology/people/j/jamie+callan/>Jamie Callan</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767762 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Paik15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.61/>A Probabilistic Model for Information Retrieval Based on Maximum Value Distribution</a></strong><br><a href=/anthology/people/j/jiaul+h.+paik/>Jiaul H. Paik</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767717 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/LiomaSLH15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.62/>Non-Compositional Term Dependence for Information Retrieval</a></strong><br><a href=/anthology/people/c/christina+lioma/>Christina Lioma</a>
+|
+<a href=/anthology/people/j/jakob+grue+simonsen/>Jakob Grue Simonsen</a>
+|
+<a href=/anthology/people/b/birger+larsen/>Birger Larsen</a>
+|
+<a href=/anthology/people/n/niels+dalum+hansen/>Niels Dalum Hansen</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767727 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/MegorskayaKS15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.63/>On the Relation Between Assessor's Agreement and Accuracy in Gamified Relevance Assessment</a></strong><br><a href=/anthology/people/o/olga+megorskaya/>Olga Megorskaya</a>
+|
+<a href=/anthology/people/v/vladimir+kukushkin/>Vladimir Kukushkin</a>
+|
+<a href=/anthology/people/p/pavel+serdyukov/>Pavel Serdyukov</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767699 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/WangSLE15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.64/>Assessor Differences and User Preferences in Tweet Timeline Generation</a></strong><br><a href=/anthology/people/y/yulu+wang/>Yulu Wang</a>
+|
+<a href=/anthology/people/g/garrick+sherman/>Garrick Sherman</a>
+|
+<a href=/anthology/people/j/jimmy+j.+lin/>Jimmy J. Lin</a>
+|
+<a href=/anthology/people/m/miles+efron/>Miles Efron</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767728 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/BaileyMST15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.65/>User Variability and IR System Evaluation</a></strong><br><a href=/anthology/people/p/peter+bailey/>Peter Bailey</a>
+|
+<a href=/anthology/people/a/alistair+moffat/>Alistair Moffat</a>
+|
+<a href=/anthology/people/f/falk+scholer/>Falk Scholer</a>
+|
+<a href=/anthology/people/p/paul+thomas+0001/>Paul Thomas</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767698 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/WangSWZSLL15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.66/>An Entity Class-Dependent Discriminative Mixture Model for Cumulative Citation Recommendation</a></strong><br><a href=/anthology/people/j/jingang+wang/>Jingang Wang</a>
+|
+<a href=/anthology/people/d/dandan+song/>Dandan Song</a>
+|
+<a href=/anthology/people/q/qifan+wang/>Qifan Wang</a>
+|
+<a href=/anthology/people/z/zhiwei+zhang/>Zhiwei Zhang</a>
+|
+<a href=/anthology/people/l/luo+si/>Luo Si</a>
+|
+<a href=/anthology/people/l/lejian+liao/>Lejian Liao</a>
+|
+<a href=/anthology/people/c/chin-yew+lin/>Chin-Yew Lin</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767750 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/LiuJG15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.67/>Scientific Information Understanding via Open Educational Resources (OER)</a></strong><br><a href=/anthology/people/x/xiaozhong+liu/>Xiaozhong Liu</a>
+|
+<a href=/anthology/people/z/zhuoren+jiang/>Zhuoren Jiang</a>
+|
+<a href=/anthology/people/l/liangcai+gao/>Liangcai Gao</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767696 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/LvF15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.68/>In Situ Insights</a></strong><br><a href=/anthology/people/y/yuanhua+lv/>Yuanhua Lv</a>
+|
+<a href=/anthology/people/a/ariel+fuxman/>Ariel Fuxman</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767746 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/GuyLDB15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.69/>Islands in the Stream: A Study of Item Recommendation within an Enterprise Social Stream</a></strong><br><a href=/anthology/people/i/ido+guy/>Ido Guy</a>
+|
+<a href=/anthology/people/r/roy+levin/>Roy Levin</a>
+|
+<a href=/anthology/people/t/tal+daniel/>Tal Daniel</a>
+|
+<a href=/anthology/people/e/ella+bolshinsky/>Ella Bolshinsky</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767751 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/BaruahSC15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.70/>Evaluating Streams of Evolving News Events</a></strong><br><a href=/anthology/people/g/gaurav+baruah/>Gaurav Baruah</a>
+|
+<a href=/anthology/people/m/mark+d.+smucker/>Mark D. Smucker</a>
+|
+<a href=/anthology/people/c/charles+l.+a.+clarke/>Charles L. A. Clarke</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767761 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ZhangZ15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.71/>Information Retrieval as Card Playing: A Formal Model for Optimizing Interactive Retrieval Interface</a></strong><br><a href=/anthology/people/y/yinan+zhang/>Yinan Zhang</a>
+|
+<a href=/anthology/people/c/chengxiang+zhai/>Chengxiang Zhai</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767705 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ShokouhiG15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.72/>From Queries to Cards: Re-ranking Proactive Card Recommendations Based on Reactive Search History</a></strong><br><a href=/anthology/people/m/milad+shokouhi/>Milad Shokouhi</a>
+|
+<a href=/anthology/people/q/qi+guo/>Qi Guo</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767837 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/AlbakourMO15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.73/>Using Sensor Metadata Streams to Identify Topics of Local Events in the City</a></strong><br><a href=/anthology/people/m/m-dyaa+albakour/>M-Dyaa Albakour</a>
+|
+<a href=/anthology/people/c/craig+macdonald/>Craig Macdonald</a>
+|
+<a href=/anthology/people/i/iadh+ounis/>Iadh Ounis</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767790 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Al-Dhelaan15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.74/>StarSum: A Simple Star Graph for Multi-document Summarization</a></strong><br><a href=/anthology/people/m/mohammed+al-dhelaan/>Mohammed Al-Dhelaan</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767811 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/AllegrettiMHPJP15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.75/>When Relevance Judgement is Happening?: An EEG-based Study</a></strong><br><a href=/anthology/people/m/marco+allegretti/>Marco Allegretti</a>
+|
+<a href=/anthology/people/y/yashar+moshfeghi/>Yashar Moshfeghi</a>
+|
+<a href=/anthology/people/m/maria+hadjigeorgieva/>Maria Hadjigeorgieva</a>
+|
+<a href=/anthology/people/f/frank+e.+pollick/>Frank E. Pollick</a>
+|
+<a href=/anthology/people/j/joemon+m.+jose/>Joemon M. Jose</a>
+|
+<a href=/anthology/people/g/gabriella+pasi/>Gabriella Pasi</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767786 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ArkhipovaGKS15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.76/>Search Engine Evaluation based on Search Engine Switching Prediction</a></strong><br><a href=/anthology/people/o/olga+arkhipova/>Olga Arkhipova</a>
+|
+<a href=/anthology/people/l/lidia+grauer/>Lidia Grauer</a>
+|
+<a href=/anthology/people/i/igor+kuralenok/>Igor Kuralenok</a>
+|
+<a href=/anthology/people/p/pavel+serdyukov/>Pavel Serdyukov</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767799 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/AzarbonyadDMK15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.77/>Time-Aware Authorship Attribution for Short Text Streams</a></strong><br><a href=/anthology/people/h/hosein+azarbonyad/>Hosein Azarbonyad</a>
+|
+<a href=/anthology/people/m/mostafa+dehghani+0001/>Mostafa Dehghani</a>
+|
+<a href=/anthology/people/m/maarten+marx/>Maarten Marx</a>
+|
+<a href=/anthology/people/j/jaap+kamps/>Jaap Kamps</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767807 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/BadacheB15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.78/>A Priori Relevance Based On Quality and Diversity Of Social Signals</a></strong><br><a href=/anthology/people/i/ismail+badache/>Ismail Badache</a>
+|
+<a href=/anthology/people/m/mohand+boughanem/>Mohand Boughanem</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767820 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/BahCC15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.79/>Document Comprehensiveness and User Preferences in Novelty Search Tasks</a></strong><br><a href=/anthology/people/a/ashraf+bah/>Ashraf Bah</a>
+|
+<a href=/anthology/people/p/praveen+chandar/>Praveen Chandar</a>
+|
+<a href=/anthology/people/b/ben+carterette/>Ben Carterette</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767813 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/BakkalAT15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.80/>Cost-Aware Result Caching for Meta-Search Engines</a></strong><br><a href=/anthology/people/e/emre+bakkal/>Emre Bakkal</a>
+|
+<a href=/anthology/people/i/ismail+sengor+altingovde/>Ismail Sengor Altingovde</a>
+|
+<a href=/anthology/people/i/ismail+hakki+toroslu/>Ismail Hakki Toroslu</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767770 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Bravo-MarquezFP15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.81/>From Unlabelled Tweets to Twitter-specific Opinion Words</a></strong><br><a href=/anthology/people/f/felipe+bravo-marquez/>Felipe Bravo-Marquez</a>
+|
+<a href=/anthology/people/e/eibe+frank/>Eibe Frank</a>
+|
+<a href=/anthology/people/b/bernhard+pfahringer/>Bernhard Pfahringer</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767812 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Carterette15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.82/>The Best Published Result is Random: Sequential Testing and its Effect on Reported Effectiveness</a></strong><br><a href=/anthology/people/b/ben+carterette/>Ben Carterette</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767809 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/CatenaMT15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.83/>Load-sensitive CPU Power Management for Web Search Engines</a></strong><br><a href=/anthology/people/m/matteo+catena/>Matteo Catena</a>
+|
+<a href=/anthology/people/c/craig+macdonald/>Craig Macdonald</a>
+|
+<a href=/anthology/people/n/nicola+tonellotto/>Nicola Tonellotto</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767828 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ChakrabortyGP15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.84/>Retrieval from Noisy E-Discovery Corpus in the Absence of Training Data</a></strong><br><a href=/anthology/people/a/anirban+chakraborty/>Anirban Chakraborty</a>
+|
+<a href=/anthology/people/k/kripabandhu+ghosh/>Kripabandhu Ghosh</a>
+|
+<a href=/anthology/people/s/swapan+kumar+parui/>Swapan Kumar Parui</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767766 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ChenC15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.85/>Opinion Spammer Detection in Web Forum</a></strong><br><a href=/anthology/people/y/yu-ren+chen/>Yu-Ren Chen</a>
+|
+<a href=/anthology/people/h/hsin-hsi+chen/>Hsin-Hsi Chen</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767771 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/CormackG15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.86/>Multi-Faceted Recall of Continuous Active Learning for Technology-Assisted Review</a></strong><br><a href=/anthology/people/g/gordon+v.+cormack/>Gordon V. Cormack</a>
+|
+<a href=/anthology/people/m/maura+r.+grossman/>Maura R. Grossman</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767817 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/CrescenziKA15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.87/>Time Pressure and System Delays in Information Search</a></strong><br><a href=/anthology/people/a/anita+crescenzi/>Anita Crescenzi</a>
+|
+<a href=/anthology/people/d/diane+kelly+0001/>Diane Kelly</a>
+|
+<a href=/anthology/people/l/leif+azzopardi/>Leif Azzopardi</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767796 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/DaiKC15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.88/>How Random Decisions Affect Selective Distributed Search</a></strong><br><a href=/anthology/people/z/zhuyun+dai/>Zhuyun Dai</a>
+|
+<a href=/anthology/people/y/yubin+kim/>Yubin Kim</a>
+|
+<a href=/anthology/people/j/jamie+callan/>Jamie Callan</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767829 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/SantoMMO15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.89/>Comparing Approaches for Query Autocompletion</a></strong><br><a href=/anthology/people/g/giovanni+di+santo/>Giovanni Di Santo</a>
+|
+<a href=/anthology/people/r/richard+mccreadie/>Richard McCreadie</a>
+|
+<a href=/anthology/people/c/craig+macdonald/>Craig Macdonald</a>
+|
+<a href=/anthology/people/i/iadh+ounis/>Iadh Ounis</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767814 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Drutsa15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.90/>Sign-Aware Periodicity Metrics of User Engagement for Online Search Quality Evaluation</a></strong><br><a href=/anthology/people/a/alexey+drutsa/>Alexey Drutsa</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767831 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/EickhoffVH15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.91/>Modelling Term Dependence with Copulas</a></strong><br><a href=/anthology/people/c/carsten+eickhoff/>Carsten Eickhoff</a>
+|
+<a href=/anthology/people/a/arjen+p.+de+vries/>Arjen P. de Vries</a>
+|
+<a href=/anthology/people/t/thomas+hofmann/>Thomas Hofmann</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767834 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/EswaranBP15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.92/>Modeling Website Topic Cohesion at Scale to Improve Webpage Classification</a></strong><br><a href=/anthology/people/d/dhivya+eswaran/>Dhivya Eswaran</a>
+|
+<a href=/anthology/people/p/paul+n.+bennett/>Paul N. Bennett</a>
+|
+<a href=/anthology/people/j/joseph+j.+pfeiffer+iii/>Joseph J. Pfeiffer III</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767833 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/FangOHML15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.93/>Topic-centric Classification of Twitter User's Political Orientation</a></strong><br><a href=/anthology/people/a/anjie+fang/>Anjie Fang</a>
+|
+<a href=/anthology/people/i/iadh+ounis/>Iadh Ounis</a>
+|
+<a href=/anthology/people/p/philip+habel/>Philip Habel</a>
+|
+<a href=/anthology/people/c/craig+macdonald/>Craig Macdonald</a>
+|
+<a href=/anthology/people/n/nut+limsopatham/>Nut Limsopatham</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767780 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/GangulyRMJ15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.94/>Word Embedding based Generalized Language Model for Information Retrieval</a></strong><br><a href=/anthology/people/d/debasis+ganguly/>Debasis Ganguly</a>
+|
+<a href=/anthology/people/d/dwaipayan+roy/>Dwaipayan Roy</a>
+|
+<a href=/anthology/people/m/mandar+mitra/>Mandar Mitra</a>
+|
+<a href=/anthology/people/g/gareth+j.+f.+jones/>Gareth J. F. Jones</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767793 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/GaoO15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.95/>A Head-Weighted Gap-Sensitive Correlation Coefficient</a></strong><br><a href=/anthology/people/n/ning+gao/>Ning Gao</a>
+|
+<a href=/anthology/people/d/douglas+w.+oard/>Douglas W. Oard</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767801 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/FarSBFH15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.96/>On Term Selection Techniques for Patent Prior Art Search</a></strong><br><a href=/anthology/people/m/mona+golestan+far/>Mona Golestan Far</a>
+|
+<a href=/anthology/people/s/scott+sanner/>Scott Sanner</a>
+|
+<a href=/anthology/people/m/mohamed+reda+bouadjenek/>Mohamed Reda Bouadjenek</a>
+|
+<a href=/anthology/people/g/gabriela+ferraro/>Gabriela Ferraro</a>
+|
+<a href=/anthology/people/d/david+hawking/>David Hawking</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767808 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/GuoL15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.97/>Automatic Feature Generation on Heterogeneous Graph for Music Recommendation</a></strong><br><a href=/anthology/people/c/chun+guo+0001/>Chun Guo</a>
+|
+<a href=/anthology/people/x/xiaozhong+liu/>Xiaozhong Liu</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767795 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/GwizdkaZ15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.98/>Differences in Eye-Tracking Measures Between Visits and Revisits to Relevant and Irrelevant Web Pages</a></strong><br><a href=/anthology/people/j/jacek+gwizdka/>Jacek Gwizdka</a>
+|
+<a href=/anthology/people/y/yinglong+zhang/>Yinglong Zhang</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767823 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/HaraSKF15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.99/>Reducing Hubness: A Cause of Vulnerability in Recommender Systems</a></strong><br><a href=/anthology/people/k/kazuo+hara/>Kazuo Hara</a>
+|
+<a href=/anthology/people/i/ikumi+suzuki/>Ikumi Suzuki</a>
+|
+<a href=/anthology/people/k/kei+kobayashi/>Kei Kobayashi</a>
+|
+<a href=/anthology/people/k/kenji+fukumizu/>Kenji Fukumizu</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767798 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/HarelY15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.100/>Modularity-Based Query Clustering for Identifying Users Sharing a Common Condition</a></strong><br><a href=/anthology/people/m/maayan+gal-on+harel/>Maayan Gal-On Harel</a>
+|
+<a href=/anthology/people/e/elad+yom-tov/>Elad Yom-Tov</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767792 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Hasanuzzaman0DF15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.101/>Understanding Temporal Query Intent</a></strong><br><a href=/anthology/people/m/mohammed+hasanuzzaman/>Mohammed Hasanuzzaman</a>
+|
+<a href=/anthology/people/s/sriparna+saha+0001/>Sriparna Saha</a>
+|
+<a href=/anthology/people/g/ga%C3%ABl+dias/>Gaël Dias</a>
+|
+<a href=/anthology/people/s/st%C3%A9phane+ferrari/>Stéphane Ferrari</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767788 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/HashemiCDKK15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.102/>On the Reusability of Open Test Collections</a></strong><br><a href=/anthology/people/s/seyyed+hadi+hashemi/>Seyyed Hadi Hashemi</a>
+|
+<a href=/anthology/people/c/charles+l.+a.+clarke/>Charles L. A. Clarke</a>
+|
+<a href=/anthology/people/a/adriel+dean-hall/>Adriel Dean-Hall</a>
+|
+<a href=/anthology/people/j/jaap+kamps/>Jaap Kamps</a>
+|
+<a href=/anthology/people/j/julia+kiseleva/>Julia Kiseleva</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767804 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/HeindorfPSE15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.103/>Towards Vandalism Detection in Knowledge Bases: Corpus Construction and Analysis</a></strong><br><a href=/anthology/people/s/stefan+heindorf/>Stefan Heindorf</a>
+|
+<a href=/anthology/people/m/martin+potthast/>Martin Potthast</a>
+|
+<a href=/anthology/people/b/benno+stein+0001/>Benno Stein</a>
+|
+<a href=/anthology/people/g/gregor+engels/>Gregor Engels</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767800 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Hoenkamp15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.104/>About the 'Compromised Information Need' and Optimal Interaction as Quality Measure for Search Interfaces</a></strong><br><a href=/anthology/people/e/eduard+c.+hoenkamp/>Eduard C. Hoenkamp</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767767 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/HsiehLY15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.105/>I See You: Person-of-Interest Search in Social Networks</a></strong><br><a href=/anthology/people/h/hsun-ping+hsieh/>Hsun-Ping Hsieh</a>
+|
+<a href=/anthology/people/c/cheng-te+li/>Cheng-Te Li</a>
+|
+<a href=/anthology/people/r/rui+yan/>Rui Yan</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767779 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/HtunHB15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.106/>Towards Quantifying the Impact of Non-Uniform Information Access in Collaborative Information Retrieval</a></strong><br><a href=/anthology/people/n/nyi+nyi+htun/>Nyi Nyi Htun</a>
+|
+<a href=/anthology/people/m/martin+halvey/>Martin Halvey</a>
+|
+<a href=/anthology/people/l/lynne+baillie/>Lynne Baillie</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767824 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/JonesTSS15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.107/>Features of Disagreement Between Retrieval Effectiveness Measures</a></strong><br><a href=/anthology/people/t/timothy+jones+0001/>Timothy Jones</a>
+|
+<a href=/anthology/people/p/paul+thomas+0001/>Paul Thomas</a>
+|
+<a href=/anthology/people/f/falk+scholer/>Falk Scholer</a>
+|
+<a href=/anthology/people/m/mark+sanderson/>Mark Sanderson</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767778 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/KostakisG15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.108/>Subsequence Search in Event-Interval Sequences</a></strong><br><a href=/anthology/people/o/orestis+kostakis/>Orestis Kostakis</a>
+|
+<a href=/anthology/people/a/aristides+gionis/>Aristides Gionis</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767782 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/KraviAGKMP15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.109/>Searcher in a Strange Land: Understanding Web Search from Familiar and Unfamiliar Locations</a></strong><br><a href=/anthology/people/e/elad+kravi/>Elad Kravi</a>
+|
+<a href=/anthology/people/e/eugene+agichtein/>Eugene Agichtein</a>
+|
+<a href=/anthology/people/i/ido+guy/>Ido Guy</a>
+|
+<a href=/anthology/people/y/yaron+kanza/>Yaron Kanza</a>
+|
+<a href=/anthology/people/a/avihai+mejer/>Avihai Mejer</a>
+|
+<a href=/anthology/people/d/dan+pelleg/>Dan Pelleg</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767821 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/KrstovskiSK15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.110/>Evaluating Retrieval Models through Histogram Analysis</a></strong><br><a href=/anthology/people/k/kriste+krstovski/>Kriste Krstovski</a>
+|
+<a href=/anthology/people/d/david+a.+smith/>David A. Smith</a>
+|
+<a href=/anthology/people/m/michael+j.+kurtz/>Michael J. Kurtz</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767797 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/LeeCM15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.111/>Inter-Category Variation in Location Search</a></strong><br><a href=/anthology/people/c/chia-jung+lee/>Chia-Jung Lee</a>
+|
+<a href=/anthology/people/n/nick+craswell/>Nick Craswell</a>
+|
+<a href=/anthology/people/v/vanessa+pe%C3%B1a+murdock/>Vanessa Peña Murdock</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767777 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Li15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.112/>Reachability based Ranking in Interactive Image Retrieval</a></strong><br><a href=/anthology/people/j/jiyi+li/>Jiyi Li</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767819 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/LiLZS15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.113/>Modeling Multi-query Retrieval Tasks Using Density Matrix Transformation</a></strong><br><a href=/anthology/people/q/qiuchi+li/>Qiuchi Li</a>
+|
+<a href=/anthology/people/j/jingfei+li/>Jingfei Li</a>
+|
+<a href=/anthology/people/p/peng+zhang+0002/>Peng Zhang</a>
+|
+<a href=/anthology/people/d/dawei+song+0001/>Dawei Song</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767781 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/LiKF15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.114/>Predicting User Behavior in Display Advertising via Dynamic Collective Matrix Factorization</a></strong><br><a href=/anthology/people/s/sheng+li+0001/>Sheng Li</a>
+|
+<a href=/anthology/people/j/jaya+kawale/>Jaya Kawale</a>
+|
+<a href=/anthology/people/y/yun+fu+0001/>Yun Fu</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767773 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/LiLLDY15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.115/>Zero-shot Image Tagging by Hierarchical Semantic Embedding</a></strong><br><a href=/anthology/people/x/xirong+li/>Xirong Li</a>
+|
+<a href=/anthology/people/s/shuai+liao/>Shuai Liao</a>
+|
+<a href=/anthology/people/w/weiyu+lan/>Weiyu Lan</a>
+|
+<a href=/anthology/people/x/xiaoyong+du+0001/>Xiaoyong Du</a>
+|
+<a href=/anthology/people/g/gang+yang+0001/>Gang Yang</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767827 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/LiuAH15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.116/>Using Term Location Information to Enhance Probabilistic Information Retrieval</a></strong><br><a href=/anthology/people/b/baiyan+liu/>Baiyan Liu</a>
+|
+<a href=/anthology/people/x/xiangdong+an+0001/>Xiangdong An</a>
+|
+<a href=/anthology/people/j/jimmy+xiangji+huang/>Jimmy Xiangji Huang</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767775 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/LiuW15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.117/>Learning Context-aware Latent Representations for Context-aware Collaborative Filtering</a></strong><br><a href=/anthology/people/x/xin+liu/>Xin Liu</a>
+|
+<a href=/anthology/people/w/wei+wu/>Wei Wu</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767806 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/LuZZW15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.118/>Exploiting User and Business Attributes for Personalized Business Recommendation</a></strong><br><a href=/anthology/people/k/kai+lu/>Kai Lu</a>
+|
+<a href=/anthology/people/y/yi+zhang/>Yi Zhang</a>
+|
+<a href=/anthology/people/l/lanbo+zhang/>Lanbo Zhang</a>
+|
+<a href=/anthology/people/s/shuxin+wang/>Shuxin Wang</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767776 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/LuccheseNOPT15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.119/>Speeding up Document Ranking with Rank-based Features</a></strong><br><a href=/anthology/people/c/claudio+lucchese/>Claudio Lucchese</a>
+|
+<a href=/anthology/people/f/franco+maria+nardini/>Franco Maria Nardini</a>
+|
+<a href=/anthology/people/s/salvatore+orlando+0001/>Salvatore Orlando</a>
+|
+<a href=/anthology/people/r/raffaele+perego+0001/>Raffaele Perego</a>
+|
+<a href=/anthology/people/n/nicola+tonellotto/>Nicola Tonellotto</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767789 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/MaiyaVW15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.120/>Mining Measured Information from Text</a></strong><br><a href=/anthology/people/a/arun+s.+maiya/>Arun S. Maiya</a>
+|
+<a href=/anthology/people/d/dale+visser/>Dale Visser</a>
+|
+<a href=/anthology/people/a/andrew+wan/>Andrew Wan</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767802 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/MaxwellAJK15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.121/>An Initial Investigation into Fixed and Adaptive Stopping Strategies</a></strong><br><a href=/anthology/people/d/david+maxwell/>David Maxwell</a>
+|
+<a href=/anthology/people/l/leif+azzopardi/>Leif Azzopardi</a>
+|
+<a href=/anthology/people/k/kalervo+j%C3%A4rvelin/>Kalervo Järvelin</a>
+|
+<a href=/anthology/people/h/heikki+keskustalo/>Heikki Keskustalo</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767816 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/MoranL15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.122/>Regularised Cross-Modal Hashing</a></strong><br><a href=/anthology/people/s/sean+moran/>Sean Moran</a>
+|
+<a href=/anthology/people/v/victor+lavrenko/>Victor Lavrenko</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767836 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/MorenoD15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.123/>Adapted B-CUBED Metrics to Unbalanced Datasets</a></strong><br><a href=/anthology/people/j/jose+g.+moreno/>Jose G. Moreno</a>
+|
+<a href=/anthology/people/g/ga%C3%ABl+dias/>Gaël Dias</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767832 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/NguyenKNZ15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.124/>A Time-aware Random Walk Model for Finding Important Documents in Web Archives</a></strong><br><a href=/anthology/people/t/tu+ngoc+nguyen/>Tu Ngoc Nguyen</a>
+|
+<a href=/anthology/people/n/nattiya+kanhabua/>Nattiya Kanhabua</a>
+|
+<a href=/anthology/people/c/claudia+nieder%C3%A9e/>Claudia Niederée</a>
+|
+<a href=/anthology/people/x/xiaofei+zhu/>Xiaofei Zhu</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767791 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/OardSWJH15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.125/>A Test Collection for Spoken Gujarati Queries</a></strong><br><a href=/anthology/people/d/douglas+w.+oard/>Douglas W. Oard</a>
+|
+<a href=/anthology/people/r/rashmi+sankepally/>Rashmi Sankepally</a>
+|
+<a href=/anthology/people/j/jerome+white/>Jerome White</a>
+|
+<a href=/anthology/people/a/aren+jansen/>Aren Jansen</a>
+|
+<a href=/anthology/people/c/craig+harman/>Craig Harman</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767774 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Pal15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.126/>Discovering Experts across Multiple Domains</a></strong><br><a href=/anthology/people/a/aditya+pal/>Aditya Pal</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767768 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ParkC15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.127/>Using Key Concepts in a Translation Model for Retrieval</a></strong><br><a href=/anthology/people/j/jae+hyun+park/>Jae Hyun Park</a>
+|
+<a href=/anthology/people/w/w.+bruce+croft/>W. Bruce Croft</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767769 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/PetriM15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.128/>On the Cost of Phrase-Based Ranking</a></strong><br><a href=/anthology/people/m/matthias+petri/>Matthias Petri</a>
+|
+<a href=/anthology/people/a/alistair+moffat/>Alistair Moffat</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767815 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/QuezadaPP15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.129/>Location-Aware Model for News Events in Social Media</a></strong><br><a href=/anthology/people/m/mauricio+quezada/>Mauricio Quezada</a>
+|
+<a href=/anthology/people/v/vanessa+pe%C3%B1a+araya/>Vanessa Peña Araya</a>
+|
+<a href=/anthology/people/b/barbara+poblete/>Barbara Poblete</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767783 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/RahmanW15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.130/>Exploring Opportunities to Facilitate Serendipity in Search</a></strong><br><a href=/anthology/people/a/ataur+rahman/>Ataur Rahman</a>
+|
+<a href=/anthology/people/m/max+l.+wilson+0001/>Max L. Wilson</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767805 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/SchamoniR15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.131/>Combining Orthogonal Information in Large-Scale Cross-Language Information Retrieval</a></strong><br><a href=/anthology/people/s/shigehiko+schamoni/>Shigehiko Schamoni</a>
+|
+<a href=/anthology/people/s/stefan+riezler/>Stefan Riezler</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767763 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/SchedlH15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.132/>Tailoring Music Recommendations to Users by Considering Diversity, Mainstreaminess, and Novelty</a></strong><br><a href=/anthology/people/m/markus+schedl/>Markus Schedl</a>
+|
+<a href=/anthology/people/d/david+hauger/>David Hauger</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767787 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/SchubotzYMC15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.133/>Challenges of Mathematical Information Retrievalin the NTCIR-11 Math Wikipedia Task</a></strong><br><a href=/anthology/people/m/moritz+schubotz/>Moritz Schubotz</a>
+|
+<a href=/anthology/people/a/abdou+youssef/>Abdou Youssef</a>
+|
+<a href=/anthology/people/v/volker+markl/>Volker Markl</a>
+|
+<a href=/anthology/people/h/howard+s.+cohl/>Howard S. Cohl</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767838 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/SchuthBBDGOTVVW15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.134/>Probabilistic Multileave for Online Retrieval Evaluation</a></strong><br><a href=/anthology/people/a/anne+schuth/>Anne Schuth</a>
+|
+<a href=/anthology/people/r/robert-jan+bruintjes/>Robert-Jan Bruintjes</a>
+|
+<a href=/anthology/people/f/fritjof+bu%C3%BCttner/>Fritjof Buüttner</a>
+|
+<a href=/anthology/people/j/joost+van+doorn/>Joost van Doorn</a>
+|
+<a href=/anthology/people/c/carla+groenland/>Carla Groenland</a>
+|
+<a href=/anthology/people/h/harrie+oosterhuis/>Harrie Oosterhuis</a>
+|
+<a href=/anthology/people/c/cong-nguyen+tran/>Cong-Nguyen Tran</a>
+|
+<a href=/anthology/people/b/bas+veeling/>Bas Veeling</a>
+|
+<a href=/anthology/people/j/jos+van+der+velde/>Jos van der Velde</a>
+|
+<a href=/anthology/people/r/roger+wechsler/>Roger Wechsler</a>
+|
+<a href=/anthology/people/d/david+woudenberg/>David Woudenberg</a>
+|
+<a href=/anthology/people/m/maarten+de+rijke/>Maarten de Rijke</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767830 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/SeverynM15a.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.135/>Twitter Sentiment Analysis with Deep Convolutional Neural Networks</a></strong><br><a href=/anthology/people/a/aliaksei+severyn/>Aliaksei Severyn</a>
+|
+<a href=/anthology/people/a/alessandro+moschitti/>Alessandro Moschitti</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767841 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ShokouhiWY15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.136/>Anchoring and Adjustment in Relevance Estimation</a></strong><br><a href=/anthology/people/m/milad+shokouhi/>Milad Shokouhi</a>
+|
+<a href=/anthology/people/r/ryen+white/>Ryen White</a>
+|
+<a href=/anthology/people/e/emine+yilmaz/>Emine Yilmaz</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767784 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ShovonNDVC15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.137/>Cognitive Activity during Web Search</a></strong><br><a href=/anthology/people/m/md.+hedayetul+islam+shovon/>Md. Hedayetul Islam Shovon</a>
+|
+<a href=/anthology/people/n/nanda+nandagopal/>Nanda Nandagopal</a>
+|
+<a href=/anthology/people/j/jia+tina+du/>Jia Tina Du</a>
+|
+<a href=/anthology/people/r/ramasamy+vijayalakshmi/>Ramasamy Vijayalakshmi</a>
+|
+<a href=/anthology/people/b/bernadine+cocks/>Bernadine Cocks</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767772 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/XuWW15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.138/>Personalized Semantic Ranking for Collaborative Recommendation</a></strong><br><a href=/anthology/people/s/song+xu/>Song Xu</a>
+|
+<a href=/anthology/people/s/shu+wu/>Shu Wu</a>
+|
+<a href=/anthology/people/l/liang+wang+0001/>Liang Wang</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767839 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/SpinaPR15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.139/>Active Learning for Entity Filtering in Microblog Streams</a></strong><br><a href=/anthology/people/d/damiano+spina/>Damiano Spina</a>
+|
+<a href=/anthology/people/m/maria-hendrike+peetz/>Maria-Hendrike Peetz</a>
+|
+<a href=/anthology/people/m/maarten+de+rijke/>Maarten de Rijke</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767822 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/SpirinKKSI15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.140/>Relevance-aware Filtering of Tuples Sorted by an Attribute Value via Direct Optimization of Search Quality Metrics</a></strong><br><a href=/anthology/people/n/nikita+v.+spirin/>Nikita V. Spirin</a>
+|
+<a href=/anthology/people/m/mikhail+p.+kuznetsov/>Mikhail P. Kuznetsov</a>
+|
+<a href=/anthology/people/j/julia+kiseleva/>Julia Kiseleva</a>
+|
+<a href=/anthology/people/y/yaroslav+v.+spirin/>Yaroslav V. Spirin</a>
+|
+<a href=/anthology/people/p/pavel+a.+izhutov/>Pavel A. Izhutov</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767818 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/SunXZLGX15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.141/>Multi-source Information Fusion for Personalized Restaurant Recommendation</a></strong><br><a href=/anthology/people/j/jing+sun+0008/>Jing Sun</a>
+|
+<a href=/anthology/people/y/yun+xiong/>Yun Xiong</a>
+|
+<a href=/anthology/people/y/yangyong+zhu/>Yangyong Zhu</a>
+|
+<a href=/anthology/people/j/junming+liu/>Junming Liu</a>
+|
+<a href=/anthology/people/c/chu+guan/>Chu Guan</a>
+|
+<a href=/anthology/people/h/hui+xiong/>Hui Xiong</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767765 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/TanWX15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.142/>Joint Matrix Factorization and Manifold-Ranking for Topic-Focused Multi-Document Summarization</a></strong><br><a href=/anthology/people/j/jiwei+tan/>Jiwei Tan</a>
+|
+<a href=/anthology/people/x/xiaojun+wan+0001/>Xiaojun Wan</a>
+|
+<a href=/anthology/people/j/jianguo+xiao/>Jianguo Xiao</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767826 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/TrippasSSC15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.143/>Towards Understanding the Impact of Length in Web Search Result Summaries over a Speech-only Communication Channel</a></strong><br><a href=/anthology/people/j/johanne+r.+trippas/>Johanne R. Trippas</a>
+|
+<a href=/anthology/people/d/damiano+spina/>Damiano Spina</a>
+|
+<a href=/anthology/people/m/mark+sanderson/>Mark Sanderson</a>
+|
+<a href=/anthology/people/l/lawrence+cavedon/>Lawrence Cavedon</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767840 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/DijkTR15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.144/>Early Detection of Topical Expertise in Community Question Answering</a></strong><br><a href=/anthology/people/d/david+van+dijk/>David van Dijk</a>
+|
+<a href=/anthology/people/m/manos+tsagkias/>Manos Tsagkias</a>
+|
+<a href=/anthology/people/m/maarten+de+rijke/>Maarten de Rijke</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767825 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/WangLWZZ15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.145/>LBMCH: Learning Bridging Mapping for Cross-modal Hashing</a></strong><br><a href=/anthology/people/y/yang+wang+0023/>Yang Wang</a>
+|
+<a href=/anthology/people/x/xuemin+lin+0001/>Xuemin Lin</a>
+|
+<a href=/anthology/people/l/lin+wu+0001/>Lin Wu</a>
+|
+<a href=/anthology/people/w/wenjie+zhang+0001/>Wenjie Zhang</a>
+|
+<a href=/anthology/people/q/qing+zhang+0001/>Qing Zhang</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767835 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/WeiG15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.146/>Gibberish, Assistant, or Master?: Using Tweets Linking to News for Extractive Single-Document Summarization</a></strong><br><a href=/anthology/people/z/zhongyu+wei/>Zhongyu Wei</a>
+|
+<a href=/anthology/people/w/wei+gao+0001/>Wei Gao</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767794 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/YaoSQWSH15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.147/>Context-aware Point-of-Interest Recommendation Using Tensor Factorization with Social Regularization</a></strong><br><a href=/anthology/people/l/lina+yao/>Lina Yao</a>
+|
+<a href=/anthology/people/q/quan+z.+sheng/>Quan Z. Sheng</a>
+|
+<a href=/anthology/people/y/yongrui+qin/>Yongrui Qin</a>
+|
+<a href=/anthology/people/x/xianzhi+wang+0001/>Xianzhi Wang</a>
+|
+<a href=/anthology/people/a/ali+shemshadi/>Ali Shemshadi</a>
+|
+<a href=/anthology/people/q/qi+he/>Qi He</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767785 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ZamaniMS15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.148/>Adaptive User Engagement Evaluation via Multi-task Learning</a></strong><br><a href=/anthology/people/h/hamed+zamani/>Hamed Zamani</a>
+|
+<a href=/anthology/people/p/pooya+moradi/>Pooya Moradi</a>
+|
+<a href=/anthology/people/a/azadeh+shakery/>Azadeh Shakery</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767764 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ZhangSTSWL15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.149/>Compact Snippet Caching for Flash-based Search Engines</a></strong><br><a href=/anthology/people/r/rui+zhang/>Rui Zhang</a>
+|
+<a href=/anthology/people/p/pengyu+sun/>Pengyu Sun</a>
+|
+<a href=/anthology/people/j/jiancong+tong/>Jiancong Tong</a>
+|
+<a href=/anthology/people/r/rebecca+jane+stones/>Rebecca Jane Stones</a>
+|
+<a href=/anthology/people/g/gang+wang+0001/>Gang Wang</a>
+|
+<a href=/anthology/people/x/xiaoguang+liu+0001/>Xiaoguang Liu</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767810 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ZhangCQZL15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.150/>When Personalization Meets Conformity: Collective Similarity based Multi-Domain Recommendation</a></strong><br><a href=/anthology/people/x/xi+zhang+0018/>Xi Zhang</a>
+|
+<a href=/anthology/people/j/jian+cheng+0001/>Jian Cheng</a>
+|
+<a href=/anthology/people/s/shuang+qiu+0002/>Shuang Qiu</a>
+|
+<a href=/anthology/people/z/zhenfeng+zhu/>Zhenfeng Zhu</a>
+|
+<a href=/anthology/people/h/hanqing+lu/>Hanqing Lu</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767803 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ZhaoH15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.151/>Sub-document Timestamping of Web Documents</a></strong><br><a href=/anthology/people/y/yue+zhao+0001/>Yue Zhao</a>
+|
+<a href=/anthology/people/c/claudia+hauff/>Claudia Hauff</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767870 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/BarzegarSFHD15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.152/>DINFRA: A One Stop Shop for Computing Multilingual Semantic Relatedness</a></strong><br><a href=/anthology/people/s/siamak+barzegar/>Siamak Barzegar</a>
+|
+<a href=/anthology/people/j/juliano+efson+sales/>Juliano Efson Sales</a>
+|
+<a href=/anthology/people/a/andr%C3%A9+freitas/>André Freitas</a>
+|
+<a href=/anthology/people/s/siegfried+handschuh/>Siegfried Handschuh</a>
+|
+<a href=/anthology/people/b/brian+davis+0001/>Brian Davis</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767869 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ChengS15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.153/>VenueMusic: A Venue-Aware Music Recommender System</a></strong><br><a href=/anthology/people/z/zhiyong+cheng/>Zhiyong Cheng</a>
+|
+<a href=/anthology/people/j/jialie+shen/>Jialie Shen</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767867 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Nunzio15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.154/>Shiny on Your Crazy Diagonal</a></strong><br><a href=/anthology/people/g/giorgio+maria+di+nunzio/>Giorgio Maria Di Nunzio</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767865 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Gupta15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.155/>CricketLinking: Linking Event Mentions from Cricket Match Reports to Ball Entities in Commentaries</a></strong><br><a href=/anthology/people/m/manish+gupta/>Manish Gupta</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767864 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/LipkaC15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.156/>An Aspect-driven Social Media Explorer</a></strong><br><a href=/anthology/people/n/nedim+lipka/>Nedim Lipka</a>
+|
+<a href=/anthology/people/w/w.+bruce+croft/>W. Bruce Croft</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767866 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/HungTWA15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.157/>ERICA: Expert Guidance in Validating Crowd Answers</a></strong><br><a href=/anthology/people/n/nguyen+quoc+viet+hung/>Nguyen Quoc Viet Hung</a>
+|
+<a href=/anthology/people/d/duong+chi+thang/>Duong Chi Thang</a>
+|
+<a href=/anthology/people/m/matthias+weidlich/>Matthias Weidlich</a>
+|
+<a href=/anthology/people/k/karl+aberer/>Karl Aberer</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767868 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/NovakBZ15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.158/>Large-scale Image Retrieval using Neural Net Descriptors</a></strong><br><a href=/anthology/people/d/david+novak/>David Novak</a>
+|
+<a href=/anthology/people/m/michal+batko/>Michal Batko</a>
+|
+<a href=/anthology/people/p/pavel+zezula/>Pavel Zezula</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767862 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ArayaQP15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.159/>Galean: Visualization of Geolocated News Events from Social Media</a></strong><br><a href=/anthology/people/v/vanessa+pe%C3%B1a+araya/>Vanessa Peña Araya</a>
+|
+<a href=/anthology/people/m/mauricio+quezada/>Mauricio Quezada</a>
+|
+<a href=/anthology/people/b/barbara+poblete/>Barbara Poblete</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767863 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/RuotsaloPEGRJMK15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.160/>SciNet: Interactive Intent Modeling for Information Discovery</a></strong><br><a href=/anthology/people/t/tuukka+ruotsalo/>Tuukka Ruotsalo</a>
+|
+<a href=/anthology/people/j/jaakko+peltonen/>Jaakko Peltonen</a>
+|
+<a href=/anthology/people/m/manuel+j.+a.+eugster/>Manuel J. A. Eugster</a>
+|
+<a href=/anthology/people/d/dorota+glowacka/>Dorota Glowacka</a>
+|
+<a href=/anthology/people/a/aki+reijonen/>Aki Reijonen</a>
+|
+<a href=/anthology/people/g/giulio+jacucci/>Giulio Jacucci</a>
+|
+<a href=/anthology/people/p/petri+myllym%C3%A4ki/>Petri Myllymäki</a>
+|
+<a href=/anthology/people/s/samuel+kaski/>Samuel Kaski</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767871 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/SalesFHD15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.161/>Linse: A Distributional Semantics Entity Search Engine</a></strong><br><a href=/anthology/people/j/juliano+efson+sales/>Juliano Efson Sales</a>
+|
+<a href=/anthology/people/a/andr%C3%A9+freitas/>André Freitas</a>
+|
+<a href=/anthology/people/s/siegfried+handschuh/>Siegfried Handschuh</a>
+|
+<a href=/anthology/people/b/brian+davis+0001/>Brian Davis</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767872 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/VuurensVBM15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.162/>Online News Tracking for Ad-Hoc Queries</a></strong><br><a href=/anthology/people/j/jeroen+b.+p.+vuurens/>Jeroen B. P. Vuurens</a>
+|
+<a href=/anthology/people/a/arjen+p.+de+vries/>Arjen P. de Vries</a>
+|
+<a href=/anthology/people/r/roi+blanco/>Roi Blanco</a>
+|
+<a href=/anthology/people/p/peter+mika/>Peter Mika</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767873 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ZhouLY15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.163/>DUMPLING: A Novel Dynamic Search Engine</a></strong><br><a href=/anthology/people/a/andrew+jie+zhou/>Andrew Jie Zhou</a>
+|
+<a href=/anthology/people/j/jiyun+luo/>Jiyun Luo</a>
+|
+<a href=/anthology/people/h/hui+yang+0001/>Hui Yang</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767848 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Arora15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.164/>Promoting User Engagement and Learning in Amorphous Search Tasks</a></strong><br><a href=/anthology/people/p/piyush+arora/>Piyush Arora</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767849 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Bagdouri15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.165/>Cross-Platform Question Routing for Better Question Answering</a></strong><br><a href=/anthology/people/m/mossaab+bagdouri/>Mossaab Bagdouri</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767851 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Crescenzi15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.166/>Time Pressure in Information Search</a></strong><br><a href=/anthology/people/a/anita+crescenzi/>Anita Crescenzi</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767844 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Dori-Hacohen15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.167/>Controversy Detection and Stance Analysis</a></strong><br><a href=/anthology/people/s/shiri+dori-hacohen/>Shiri Dori-Hacohen</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767852 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Kiseleva15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.168/>Using Contextual Information to Understand Searching and Browsing Behavior</a></strong><br><a href=/anthology/people/j/julia+kiseleva/>Julia Kiseleva</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767845 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Li15a.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.169/>Transfer Learning for Information Retrieval</a></strong><br><a href=/anthology/people/p/pengfei+li/>Pengfei Li</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767843 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Liska15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.170/>Enhancing Mathematics Information Retrieval</a></strong><br><a href=/anthology/people/m/martin+l%C3%ADska/>Martin Líska</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767847 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Lu15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.171/>Improving Search using Proximity-Based Statistics</a></strong><br><a href=/anthology/people/x/xiaolu+lu+0002/>Xiaolu Lu</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767850 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Trippas15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.172/>Spoken Conversational Search: Information Retrieval over a Speech-only Communication Channel</a></strong><br><a href=/anthology/people/j/johanne+r.+trippas/>Johanne R. Trippas</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767846 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Yulianti15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.173/>Finding Answers in Web Search</a></strong><br><a href=/anthology/people/e/evi+yulianti/>Evi Yulianti</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2776787 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Chang15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.174/>From Web Search Relevance to Vertical Search Relevance</a></strong><br><a href=/anthology/people/y/yi+chang+0001/>Yi Chang</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2776782 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/DorandoAVKM15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.175/>Finding Money in the Haystack: Information Retrieval at Bloomberg</a></strong><br><a href=/anthology/people/j/jonathan+j.+dorando/>Jonathan J. Dorando</a>
+|
+<a href=/anthology/people/k/konstantine+arkoudas/>Konstantine Arkoudas</a>
+|
+<a href=/anthology/people/p/parth+vasa/>Parth Vasa</a>
+|
+<a href=/anthology/people/g/gary+kazantsev/>Gary Kazantsev</a>
+|
+<a href=/anthology/people/g/gideon+mann/>Gideon Mann</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2776784 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Hawking15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.176/>If SIGIR had an Academic Track, What Would Be In It?</a></strong><br><a href=/anthology/people/d/david+hawking/>David Hawking</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2776781 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Liu15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.177/>WeChat Search & Headline: Sogou Joins Force with Tencent on Mobile Search</a></strong><br><a href=/anthology/people/c/chao+liu/>Chao Liu</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2776785 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Makhani15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.178/>Structure, Personalization, Scale: A Deep Dive into LinkedIn Search</a></strong><br><a href=/anthology/people/a/asif+makhani/>Asif Makhani</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2776783 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Murdock15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.179/>Location in Search</a></strong><br><a href=/anthology/people/v/vanessa+murdock+0001/>Vanessa Murdock</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2776786 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Serdyukov15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.180/>Challenges and Opportunities in Online Evaluation of Search Engines</a></strong><br><a href=/anthology/people/p/pavel+serdyukov/>Pavel Serdyukov</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2776788 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Shen15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.181/>Lower Search Cost</a></strong><br><a href=/anthology/people/d/dou+shen/>Dou Shen</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2776778 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Alonso15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.182/>Practical Lessons for Gathering Quality Labels at Scale</a></strong><br><a href=/anthology/people/o/omar+alonso/>Omar Alonso</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2776780 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Baeza-Yates15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.183/>Incremental Sampling of Query Logs</a></strong><br><a href=/anthology/people/r/ricardo+baeza-yates/>Ricardo Baeza-Yates</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2776777 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/KiselevaMBDKEKT15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.184/>Where to Go on Your Next Trip?: Optimizing Travel Destinations Based on User Preferences</a></strong><br><a href=/anthology/people/j/julia+kiseleva/>Julia Kiseleva</a>
+|
+<a href=/anthology/people/m/melanie+j.+i.+m%C3%BCller/>Melanie J. I. Müller</a>
+|
+<a href=/anthology/people/l/lucas+bernardi/>Lucas Bernardi</a>
+|
+<a href=/anthology/people/c/chad+davis/>Chad Davis</a>
+|
+<a href=/anthology/people/i/ivan+kovacek/>Ivan Kovacek</a>
+|
+<a href=/anthology/people/m/mats+stafseng+einarsen/>Mats Stafseng Einarsen</a>
+|
+<a href=/anthology/people/j/jaap+kamps/>Jaap Kamps</a>
+|
+<a href=/anthology/people/a/alexander+tuzhilin/>Alexander Tuzhilin</a>
+|
+<a href=/anthology/people/d/djoerd+hiemstra/>Djoerd Hiemstra</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2776779 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/MalherbeCB15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.185/>Bringing Order to the Job Market: Efficient Job Offer Categorization in E-Recruitment</a></strong><br><a href=/anthology/people/e/emmanuel+malherbe/>Emmanuel Malherbe</a>
+|
+<a href=/anthology/people/m/mario+cataldi/>Mario Cataldi</a>
+|
+<a href=/anthology/people/a/andrea+ballatore/>Andrea Ballatore</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767874 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/AzzopardiZ15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.186/>Building and Using Models of Information Seeking, Search and Retrieval: Full Day Tutorial</a></strong><br><a href=/anthology/people/l/leif+azzopardi/>Leif Azzopardi</a>
+|
+<a href=/anthology/people/g/guido+zuccon/>Guido Zuccon</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767882 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ChuklinMR15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.187/>Advanced Click Models and their Applications to IR: SIGIR 2015 Tutorial</a></strong><br><a href=/anthology/people/a/aleksandr+chuklin/>Aleksandr Chuklin</a>
+|
+<a href=/anthology/people/i/ilya+markov/>Ilya Markov</a>
+|
+<a href=/anthology/people/m/maarten+de+rijke/>Maarten de Rijke</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767881 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ChuklinMR15a.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.188/>An Introduction to Click Models for Web Search: SIGIR 2015 Tutorial</a></strong><br><a href=/anthology/people/a/aleksandr+chuklin/>Aleksandr Chuklin</a>
+|
+<a href=/anthology/people/i/ilya+markov/>Ilya Markov</a>
+|
+<a href=/anthology/people/m/maarten+de+rijke/>Maarten de Rijke</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767876 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ClarkeSY15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.189/>IR Evaluation: Modeling User Behavior for Measuring Effectiveness</a></strong><br><a href=/anthology/people/c/charles+l.+a.+clarke/>Charles L. A. Clarke</a>
+|
+<a href=/anthology/people/m/mark+d.+smucker/>Mark D. Smucker</a>
+|
+<a href=/anthology/people/e/emine+yilmaz/>Emine Yilmaz</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767877 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/GuptaB15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.190/>Information Retrieval with Verbose Queries</a></strong><br><a href=/anthology/people/m/manish+gupta/>Manish Gupta</a>
+|
+<a href=/anthology/people/m/michael+bendersky/>Michael Bendersky</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767878 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/Kantor15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.191/>Revisiting the Foundations of IR: Timeless, Yet Timely</a></strong><br><a href=/anthology/people/p/paul+b.+kantor/>Paul B. Kantor</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767875 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/KimY15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.192/>IR Evaluation: Designing an End-to-End Offline Evaluation Pipeline</a></strong><br><a href=/anthology/people/j/jin+young+kim+0005/>Jin Young Kim</a>
+|
+<a href=/anthology/people/e/emine+yilmaz/>Emine Yilmaz</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767880 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/KneesS15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.193/>Music Retrieval and Recommendation: A Tutorial Overview</a></strong><br><a href=/anthology/people/p/peter+knees/>Peter Knees</a>
+|
+<a href=/anthology/people/m/markus+schedl/>Markus Schedl</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767879 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ShapiraOM15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.194/>Exploiting Wikipedia for Information Retrieval Tasks</a></strong><br><a href=/anthology/people/b/bracha+shapira/>Bracha Shapira</a>
+|
+<a href=/anthology/people/n/nir+ofek/>Nir Ofek</a>
+|
+<a href=/anthology/people/v/victor+makarenkov/>Victor Makarenkov</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767861 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/AgichteinCCPPS15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.195/>Web Question Answering: Beyond Factoids: SIGIR 2015 Workshop</a></strong><br><a href=/anthology/people/e/eugene+agichtein/>Eugene Agichtein</a>
+|
+<a href=/anthology/people/d/david+carmel/>David Carmel</a>
+|
+<a href=/anthology/people/c/charles+l.+a.+clarke/>Charles L. A. Clarke</a>
+|
+<a href=/anthology/people/p/praveen+paritosh/>Praveen Paritosh</a>
+|
+<a href=/anthology/people/d/dan+pelleg/>Dan Pelleg</a>
+|
+<a href=/anthology/people/i/idan+szpektor/>Idan Szpektor</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767855 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/AlonsoHK15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.196/>Graph Search and Beyond: SIGIR 2015 Workshop Summary</a></strong><br><a href=/anthology/people/o/omar+alonso/>Omar Alonso</a>
+|
+<a href=/anthology/people/m/marti+a.+hearst/>Marti A. Hearst</a>
+|
+<a href=/anthology/people/j/jaap+kamps/>Jaap Kamps</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767858 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/ArguelloDLT15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.197/>SIGIR 2015 Workshop on Reproducibility, Inexplicability, and Generalizability of Results (RIGOR)</a></strong><br><a href=/anthology/people/j/jaime+arguello/>Jaime Arguello</a>
+|
+<a href=/anthology/people/f/fernando+diaz+0001/>Fernando Diaz</a>
+|
+<a href=/anthology/people/j/jimmy+j.+lin/>Jimmy J. Lin</a>
+|
+<a href=/anthology/people/a/andrew+trotman/>Andrew Trotman</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767860 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/BerberichCEHMST15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.198/>SIGIR 2015 Workshop on Temporal, Social and Spatially-aware Information Access (#TAIA2015)</a></strong><br><a href=/anthology/people/k/klaus+berberich/>Klaus Berberich</a>
+|
+<a href=/anthology/people/j/james+caverlee/>James Caverlee</a>
+|
+<a href=/anthology/people/m/miles+efron/>Miles Efron</a>
+|
+<a href=/anthology/people/c/claudia+hauff/>Claudia Hauff</a>
+|
+<a href=/anthology/people/v/vanessa+murdock+0001/>Vanessa Murdock</a>
+|
+<a href=/anthology/people/m/milad+shokouhi/>Milad Shokouhi</a>
+|
+<a href=/anthology/people/b/bart+thomee/>Bart Thomee</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767856 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/GwizdkaoMW15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.199/>NeuroIR 2015: Neuro-Physiological Methods in IR Research</a></strong><br><a href=/anthology/people/j/jacek+gwizdka/>Jacek Gwizdka</a>
+|
+<a href=/anthology/people/j/joemon+m.+jose/>Joemon M. Jose</a>
+|
+<a href=/anthology/people/j/javed+mostafa/>Javed Mostafa</a>
+|
+<a href=/anthology/people/m/max+l.+wilson+0001/>Max L. Wilson</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767859 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/TrattnerPBM15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.200/>SPS'15: 2015 International Workshop on Social Personalization & Search</a></strong><br><a href=/anthology/people/c/christoph+trattner/>Christoph Trattner</a>
+|
+<a href=/anthology/people/d/denis+parra/>Denis Parra</a>
+|
+<a href=/anthology/people/p/peter+brusilovsky/>Peter Brusilovsky</a>
+|
+<a href=/anthology/people/l/leandro+balby+marinho/>Leandro Balby Marinho</a></span></p><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1145/2766462.2767857 data-toggle=tooltip data-placement=top title="Open at doi.org">doi
+</a><a class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/sigir/YangS15.html data-toggle=tooltip data-placement=top title="Open at dblp.org">dblp</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/anthology/2015.sigirconf_conference-2015.201/>Privacy-Preserving IR 2015: When Information Retrieval Meets Privacy and Security</a></strong><br><a href=/anthology/people/h/hui+yang+0001/>Hui Yang</a>
+|
+<a href=/anthology/people/i/ian+soboroff/>Ian Soboroff</a></span></p></div></section></div><div style=flex-grow:1></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container-fluid><p class="text-muted small col-12 px-0 px-sm-3"><span style=float:left><a style=color:#6c757d href=/anthology/info/credits/>Credits</a></span>
+<span style=float:right>©2021 <a style=color:#6c757d href=https://webis.de/>Webis Group</a>&nbsp;&nbsp;•&nbsp;&nbsp;<a href=https://github.com/ir-anthology/ir-anthology><svg width="16" height="16" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 1C5.03 1 1 5.03 1 10 1 13.98 3.58 17.35 7.16 18.54 7.61 18.62 7.77 18.34 7.77 18.11 7.77 17.9 7.76 17.33 7.76 16.58 5.26 17.12 4.73 15.37 4.73 15.37 4.32 14.33 3.73 14.05 3.73 14.05 2.91 13.5 3.79 13.5 3.79 13.5 4.69 13.56 5.17 14.43 5.17 14.43 5.97 15.8 7.28 15.41 7.79 15.18 7.87 14.6 8.1 14.2 8.36 13.98 6.36 13.75 4.26 12.98 4.26 9.53 4.26 8.55 4.61 7.74 5.19 7.11 5.1 6.88 4.79 5.97 5.28 4.73 5.28 4.73 6.04 4.49 7.75 5.65 8.47 5.45 9.24 5.35 10 5.35S11.53 5.45 12.25 5.65C13.97 4.48 14.72 4.73 14.72 4.73 15.21 5.97 14.9 6.88 14.81 7.11 15.39 7.74 15.73 8.54 15.73 9.53 15.73 12.99 13.63 13.75 11.62 13.97 11.94 14.25 12.23 14.8 12.23 15.64 12.23 16.84 12.22 17.81 12.22 18.11 12.22 18.35 12.38 18.63 12.84 18.54 16.42 17.35 19 13.98 19 10 19 5.03 14.97 1 10 1z" fill="#6c757d"/></svg>
+</a>&nbsp;<a href=https://twitter.com/IRanthology><svg width="18" height="18" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M19 4.74C18.339 5.029 17.626 5.229 16.881 5.32 17.644 4.86 18.227 4.139 18.503 3.28 17.79 3.7 17.001 4.009 16.159 4.17 15.485 3.45 14.526 3 13.464 3 11.423 3 9.771 4.66 9.771 6.7 9.771 6.99 9.804 7.269 9.868 7.539 6.795 7.38 4.076 5.919 2.254 3.679 1.936 4.219 1.754 4.86 1.754 5.539 1.754 6.82 2.405 7.95 3.397 8.61 2.79 8.589 2.22 8.429 1.723 8.149V8.189C1.723 9.978 2.997 11.478 4.686 11.82 4.376 11.899 4.049 11.939 3.713 11.939 3.475 11.939 3.245 11.919 3.018 11.88 3.49 13.349 4.852 14.419 6.469 14.449 5.205 15.429 3.612 16.019 1.882 16.019 1.583 16.019 1.29 16.009 1 15.969 2.635 17.019 4.576 17.629 6.662 17.629 13.454 17.629 17.17 12 17.17 7.129 17.17 6.969 17.166 6.809 17.157 6.649 17.879 6.129 18.504 5.478 19 4.74" fill="#6c757d"/></svg>
+</a>&nbsp;&nbsp;•&nbsp;&nbsp;<a style=color:#6c757d href=https://webis.de/people.html>Contact</a>&nbsp;&nbsp;•&nbsp;&nbsp;<a style=color:#6c757d href=https://webis.de/impressum.html>Impressum / Terms / Privacy</a></span></p><br></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
+target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script></body></html>
