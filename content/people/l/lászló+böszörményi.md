@@ -1,5 +1,0 @@
----
-lastname: "B\xF6sz\xF6rm\xE9nyi"
-name: "l\xE1szl\xF3+b\xF6sz\xF6rm\xE9nyi"
-title: "L\xE1szl\xF3 B\xF6sz\xF6rm\xE9nyi"
----

@@ -1,5 +1,0 @@
----
-lastname: "K\xFC\xE7\xFCktun\xE7"
-name: "onur+k\xFC\xE7\xFCktun\xE7"
-title: "Onur K\xFC\xE7\xFCktun\xE7"
----
