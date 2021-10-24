@@ -13,4 +13,4 @@ staticDir = ["static", "data-export"]
 [params]
   githash = "437865dc920dee4d131be38df2c2e7125dda80f0"
   githashshort = "437865dc"
-  timestamp = "23 October 2021 at 13:46 UTC"
+  timestamp = "24 October 2021 at 20:44 UTC"
