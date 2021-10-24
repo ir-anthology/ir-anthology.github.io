@@ -1,0 +1,5 @@
+---
+title: World Wide Web Journal (2010)
+venue: wwwjournals_journal
+year: '2010'
+---

@@ -1,0 +1,29 @@
+{{/*
+
+# This file has been modified by the Webis Group
+# to fit the needs of the IR Anthology.
+# The original is part of the ACL Anthology.
+
+*/}}
+{{ define "meta" }}
+<meta name="robots" content="noindex, nofollow">
+{{ end }}
+
+{{ define "main" }}
+<main aria-role="main" class="col-12">
+  {{/* This template isn't very important, it mainly exists to show something
+  reasonable if a user happens to manually navigate to /events/ or /venues/ */}}
+  <h2 id="title">{{ .Title }}</h2>
+  <hr />
+
+  {{ .Content }}
+
+  {{ with .Params.render_pagelist }}
+  <ul>
+  {{ range $.Pages }}
+  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ end }}
+  </ul>
+  {{ end }}
+</main>
+{{ end }}

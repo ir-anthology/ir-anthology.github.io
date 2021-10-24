@@ -1,0 +1,5 @@
+---
+lastname: "\xD6z\xF6g\xFCr-Aky\xFCz"
+name: "s\xFCreyya+\xF6z\xF6g\xFCr-aky\xFCz"
+title: "S\xFCreyya \xD6z\xF6g\xFCr-Aky\xFCz"
+---

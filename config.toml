@@ -1,0 +1,16 @@
+
+#
+# This file has been modified by the Webis Group 
+# to fit the needs of the IR Anthology. 
+# The original is part of the ACL Anthology. 
+#
+title = "IR Anthology"
+disablePathToLower = true
+staticDir = ["static", "data-export"]
+
+[permalinks]
+  papers = "/:filename/"
+[params]
+  githash = "437865dc920dee4d131be38df2c2e7125dda80f0"
+  githashshort = "437865dc"
+  timestamp = "23 October 2021 at 13:46 UTC"

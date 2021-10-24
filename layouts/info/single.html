@@ -1,0 +1,24 @@
+{{/*
+
+# This file has been modified by the Webis Group
+# to fit the needs of the IR Anthology.
+# The original is part of the ACL Anthology.
+
+*/}}
+{{ define "main" }}
+<main aria-role="main" class="col-12">
+  <h2 id="title">
+    {{ .Title }}
+  </h2>
+  {{ with .Params.subtitle }}
+  <p class="lead text-muted">{{ . }}</p>
+  {{ end }}
+  <hr />
+
+  {{ if not .Date.IsZero }}
+  <p class="font-weight-light font-italic text-muted">{{ .Date.Format "January 2, 2006" }}</p>
+  {{ end }}
+
+  {{ .Content }}
+</main>
+{{ end }}

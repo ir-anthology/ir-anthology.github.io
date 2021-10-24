@@ -1,0 +1,5 @@
+---
+lastname: "G\xF6z\xFCa\xE7ik"
+name: "\xF6mer+g\xF6z\xFCa\xE7ik"
+title: "\xD6mer G\xF6z\xFCa\xE7ik"
+---

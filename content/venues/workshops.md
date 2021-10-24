@@ -1,0 +1,4 @@
+---
+title: Workshops
+venue: workshops
+---
