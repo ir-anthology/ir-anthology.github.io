@@ -11,6 +11,6 @@ staticDir = ["static", "data-export"]
 [permalinks]
   papers = "/:filename/"
 [params]
-  githash = "19c456f4a44c34b19c32841ca142e63a9f73e9ee"
-  githashshort = "19c456f4"
-  timestamp = "24 October 2021 at 22:21 UTC"
+  githash = "d34d57697fb2daf4876ebf475af6e6f2eb2d23b2"
+  githashshort = "d34d5769"
+  timestamp = "14 January 2022 at 00:27 UTC"
