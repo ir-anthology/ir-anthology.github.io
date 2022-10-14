@@ -113,3 +113,7 @@ ul ul, ul ol, ol ul, ol ol {
     display: none;
   }
 }
+
+.linkbag span:not(:first-child):before {
+  content: "| "
+}
