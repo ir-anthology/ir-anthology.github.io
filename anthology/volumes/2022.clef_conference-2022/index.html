@@ -1,0 +1,913 @@
+<!doctype html><html lang=en style=height:100%>
+<head>
+<meta charset=utf-8>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta property="og:site_name" content="The Information Retrieval Anthology"><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]-->
+<title>Experimental IR Meets Multilinguality, Multimodality, and Interaction - 13th International Conference of the CLEF Association, CLEF 2022, Bologna, Italy, September 5-8, 2022, Proceedings - IR Anthology</title>
+<meta name=generator content="Hugo 0.92.2">
+<link href=/anthology/favicon.ico rel="shortcut icon" type=image/x-icon>
+<link rel=stylesheet href=/anthology/anthology/css/bootstrap.min.css>
+<link rel=stylesheet href=/anthology/css/main.min.6841616967e84c4b1148af03842d12f1407ed23b582b7676342d4bb31788ce11.css media=screen>
+<link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous>
+<link rel=stylesheet href=/anthology/anthology/css/academicons.min.css>
+</head>
+<body style=display:flex;flex-flow:column;height:100%>
+<nav class="navbar navbar-expand-sm navbar-light bg-light bg-gradient-light shadow-sm py-0 mb-3 mb-md-4 mb-xl-5">
+<div id=navbar-container class=container-fluid style=padding-top:15px;padding-bottom:15px>
+<a class=navbar-brand href=/anthology/>
+<span class=d-md-inline><span style=color:#951515><b>IR</b></span> Anthology</span>
+</a>
+<form class="form-inline input-group" style=max-width:800px action=https://ir.chatnoir.eu/? method=get>
+<input id=acl-search-box class=form-control name=q type=search placeholder="Full-text search..." aria-label=Search>
+<div class=input-group-append>
+<button class="btn btn-outline-primary" type=submit><i class="fas fa-search"></i></button>
+</div>
+</form>
+</div>
+</nav>
+<div id=main-container class=container-fluid>
+<script src=/anthology/js/clipboard.min.js></script>
+<script>var bib_download_url="/anthology/files/barroncedeno-2022-experimental.bib",bibkey="barroncedeno-2022-experimental"</script>
+<script>document.onreadystatechange=function(){var b,c,a;if(document.readyState=="complete"){if(b=new XMLHttpRequest,b.open("GET",bib_download_url,!1),b.send(),b.status===200)c=b.responseText;else throw"Error while loading the BibTex";if(ClipboardJS.isSupported()){new ClipboardJS(".btn-clipboard-bib",{text:function(a){return c}}),new ClipboardJS(".btn-clipboard-bibkey",{text:function(a){return bibkey}}),a=document.getElementsByClassName("btn-clipboard-bib");for(i=0;i<a.length;i++)a[i].classList.remove("d-none");a=document.getElementsByClassName("btn-clipboard-bibkey");for(i=0;i<a.length;i++)a[i].classList.remove("d-none")}}}</script>
+<section id=main class=col-12><small><a href=/anthology>Main</a> » <a href=/anthology/venues/clef_conference/>CLEF</a> » <a href=/anthology/events/clef_conference-2022>2022</a> » </small><h2 id=title>
+Experimental IR Meets Multilinguality, Multimodality, and Interaction - 13th International Conference of the CLEF Association, CLEF 2022, Bologna, Italy, September 5-8, 2022, Proceedings
+</h2>
+<p class=lead>
+<a href=/anthology/people/a/alberto+barr%C3%B3n-cede%C3%B1o/>Alberto Barrón-Cedeño</a>,
+<a href=/anthology/people/g/giovanni+da+san+martino/>Giovanni Da San Martino</a>,
+<a href=/anthology/people/m/mirko+degli+esposti/>Mirko Degli Esposti</a>,
+<a href=/anthology/people/f/fabrizio+sebastiani+0001/>Fabrizio Sebastiani</a>,
+<a href=/anthology/people/c/craig+macdonald/>Craig Macdonald</a>,
+<a href=/anthology/people/g/gabriella+pasi/>Gabriella Pasi</a>,
+<a href=/anthology/people/a/allan+hanbury/>Allan Hanbury</a>,
+<a href=/anthology/people/m/martin+potthast/>Martin Potthast</a>,
+<a href=/anthology/people/g/guglielmo+faggioli/>Guglielmo Faggioli</a>,
+<a href=/anthology/people/n/nicola+ferro+0001/>Nicola Ferro</a>
+<span class=text-muted>(Editors)</span>
+<hr>
+<div class="row acl-paper-details">
+<div class="col col-lg-10 order-2">
+<dl>
+<dt>Anthology ID:</dt>
+<dd>2022.clef_conference-2022</dd>
+<dt>Year:</dt>
+<dd>2022</dd>
+<dt>Venue:</dt>
+<dd><a href=/anthology/venues/clef_conference/>clef_conference</a>
+</dd>
+<dt>Publisher:</dt>
+<dd>Springer</dd>
+<dt>URL:</dt>
+<dd><a target=_blank href=https://doi.org/10.1007/978-3-031-13643-6>https://doi.org/10.1007/978-3-031-13643-6</a></dd>
+<dt>DOI:</dt>
+<dd><a target=_blank href=https://dx.doi.org/10.1007/978-3-031-13643-6 title="To the current version of the paper by DOI">10.1007/978-3-031-13643-6</a></dd>
+<dt>DBLP:</dt>
+<dd><a target=_blank href=https://dblp.org/rec/conf/clef/2022.html title="DBLP paper page">conf/clef/2022</a></dd>
+<dt class=acl-button-row>BibTeX:</dt>
+<dd class=acl-button-row>
+<a class="btn btn-secondary btn-sm" href=/anthology/files/barroncedeno-2022-experimental.bib>Download</a>
+<button type=button class="btn btn-clipboard-bib btn-secondary btn-sm d-none"><i class="far fa-clipboard pr-2"></i>Copy BibTeX to Clipboard</button>
+<button type=button class="btn btn-clipboard-bibkey btn-secondary btn-sm d-none"><i class="far fa-clipboard pr-2"></i>Copy Bibkey "barroncedeno-2022-experimental" to Clipboard</button>
+</dd>
+</dl>
+</div>
+<div class=acl-paper-link-block>
+<a target=_blank class="btn btn-secondary" href="https://scholar.google.com/scholar?q=Experimental+IR+Meets+Multilinguality%2C+Multimodality%2C+and+Interaction+-+13th+International+Conference+of+the+CLEF+Association%2C+CLEF+2022%2C+Bologna%2C+Italy%2C+September+5-8%2C+2022%2C+Proceedings" title="Search for 'Experimental IR Meets Multilinguality, Multimodality, and Interaction - 13th International Conference of the CLEF Association, CLEF 2022, Bologna, Italy, September 5-8, 2022, Proceedings' on Google Scholar">
+<i class="ai ai-google-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Google Scholar</span>
+</a>
+<a target=_blank class="btn btn-secondary" href="https://scholar.archive.org/search?q=Experimental+IR+Meets+Multilinguality%2C+Multimodality%2C+and+Interaction+-+13th+International+Conference+of+the+CLEF+Association%2C+CLEF+2022%2C+Bologna%2C+Italy%2C+September+5-8%2C+2022%2C+Proceedings" title="Search for 'Experimental IR Meets Multilinguality, Multimodality, and Interaction - 13th International Conference of the CLEF Association, CLEF 2022, Bologna, Italy, September 5-8, 2022, Proceedings' on Internet Archive Scholar">
+<img style=max-width:20px src=/anthology/images/internet-archive-logo.svg></img><span class="pl-sm-2 d-none d-sm-inline">Internet Archive Scholar</span>
+</a>
+<a target=_blank class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=Experimental+IR+Meets+Multilinguality%2C+Multimodality%2C+and+Interaction+-+13th+International+Conference+of+the+CLEF+Association%2C+CLEF+2022%2C+Bologna%2C+Italy%2C+September+5-8%2C+2022%2C+Proceedings" title="Search for 'Experimental IR Meets Multilinguality, Multimodality, and Interaction - 13th International Conference of the CLEF Association, CLEF 2022, Bologna, Italy, September 5-8, 2022, Proceedings' on Semantic Scholar">
+<img style=max-width:20px src=/anthology/images/sematicscholar-logo.svg></img><span class="pl-sm-2 d-none d-sm-inline">Semantic Scholar</span>
+</a>
+</div>
+</div>
+<hr>
+<div>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/2022.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.0/>Experimental IR Meets Multilinguality, Multimodality, and Interaction - 13th International Conference of the CLEF Association, CLEF 2022, Bologna, Italy, September 5-8, 2022, Proceedings</a></strong>
+<br>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_1 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/AchillesMW22.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.1/>"Meanspo Please, I Want to Lose Weight": A Characterization Study of Meanspiration Content on Tumblr Based on Images and Texts</a></strong>
+<br>
+<a href=/anthology/people/l/linda+achilles/>Linda Achilles</a>
+|
+<a href=/anthology/people/t/thomas+mandl+0001/>Thomas Mandl</a>
+|
+<a href=/anthology/people/c/christa+womser-hacker/>Christa Womser-Hacker</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_2 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/BernardSFDR22.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.2/>Tracking News Stories in Short Messages in the Era of Infodemic</a></strong>
+<br>
+<a href=/anthology/people/g/guillaume+bernard/>Guillaume Bernard</a>
+|
+<a href=/anthology/people/c/cyrille+suire/>Cyrille Suire</a>
+|
+<a href=/anthology/people/c/cyril+faucher/>Cyril Faucher</a>
+|
+<a href=/anthology/people/a/antoine+doucet/>Antoine Doucet</a>
+|
+<a href=/anthology/people/p/paolo+rosso/>Paolo Rosso</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_3 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/NingtyasEHPH22.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.3/>Leveraging Wikipedia Knowledge for Distant Supervision in Medical Concept Normalization</a></strong>
+<br>
+<a href=/anthology/people/a/annisa+maulida+ningtyas/>Annisa Maulida Ningtyas</a>
+|
+<a href=/anthology/people/a/alaa+el-ebshihy/>Alaa El-Ebshihy</a>
+|
+<a href=/anthology/people/g/guntur+budi+herwanto/>Guntur Budi Herwanto</a>
+|
+<a href=/anthology/people/f/florina+piroi/>Florina Piroi</a>
+|
+<a href=/anthology/people/a/allan+hanbury/>Allan Hanbury</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_4 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/FrobeAPH22.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.4/>Noise-Reduction for Automatically Transferred Relevance Judgments</a></strong>
+<br>
+<a href=/anthology/people/m/maik+fr%C3%B6be/>Maik Fröbe</a>
+|
+<a href=/anthology/people/c/christopher+akiki/>Christopher Akiki</a>
+|
+<a href=/anthology/people/m/martin+potthast/>Martin Potthast</a>
+|
+<a href=/anthology/people/m/matthias+hagen/>Matthias Hagen</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_5 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/AliannejadiHLMP22.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.5/>The Effect of Prolonged Exposure to Online Education on a Classroom Search Companion</a></strong>
+<br>
+<a href=/anthology/people/m/mohammad+aliannejadi/>Mohammad Aliannejadi</a>
+|
+<a href=/anthology/people/t/theo+huibers/>Theo Huibers</a>
+|
+<a href=/anthology/people/m/monica+landoni/>Monica Landoni</a>
+|
+<a href=/anthology/people/e/emiliana+murgia/>Emiliana Murgia</a>
+|
+<a href=/anthology/people/m/maria+soledad+pera/>Maria Soledad Pera</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_6 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/CorbaraCRM22.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.6/>Rhythmic and Psycholinguistic Features for Authorship Tasks in the Spanish Parliament: Evaluation and Analysis</a></strong>
+<br>
+<a href=/anthology/people/s/silvia+corbara/>Silvia Corbara</a>
+|
+<a href=/anthology/people/b/berta+chulvi/>Berta Chulvi</a>
+|
+<a href=/anthology/people/p/paolo+rosso/>Paolo Rosso</a>
+|
+<a href=/anthology/people/a/alejandro+moreo/>Alejandro Moreo</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_7 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/MohtajM22.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.7/>The Impact of Pre-processing on the Performance of Automated Fake News Detection</a></strong>
+<br>
+<a href=/anthology/people/s/salar+mohtaj/>Salar Mohtaj</a>
+|
+<a href=/anthology/people/s/sebastian+m%C3%B6ller+0001/>Sebastian Möller</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_8 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/SkalickySUS22.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.8/>Business Document Information Extraction: Towards Practical Benchmarks</a></strong>
+<br>
+<a href=/anthology/people/m/maty%C3%A1s+skalick%C3%BD/>Matyás Skalický</a>
+|
+<a href=/anthology/people/s/step%C3%A1n+simsa/>Stepán Simsa</a>
+|
+<a href=/anthology/people/m/michal+uric%C3%A1r/>Michal Uricár</a>
+|
+<a href=/anthology/people/m/milan+sulc/>Milan Sulc</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_9 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/GuptaBR22.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.9/>An Analysis of Logic Rule Dissemination in Sentiment Classifiers</a></strong>
+<br>
+<a href=/anthology/people/s/shashank+gupta/>Shashank Gupta</a>
+|
+<a href=/anthology/people/m/mohamed+reda+bouadjenek/>Mohamed Reda Bouadjenek</a>
+|
+<a href=/anthology/people/a/antonio+robles-kelly/>Antonio Robles-Kelly</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_10 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/FraylingMMO22.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.10/>Using Entities in Knowledge Graph Hierarchies to Classify Sensitive Information</a></strong>
+<br>
+<a href=/anthology/people/e/erlend+frayling/>Erlend Frayling</a>
+|
+<a href=/anthology/people/c/craig+macdonald/>Craig Macdonald</a>
+|
+<a href=/anthology/people/g/graham+mcdonald/>Graham McDonald</a>
+|
+<a href=/anthology/people/i/iadh+ounis/>Iadh Ounis</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_11 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/KellerM21a.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.11/>Evaluating Research Dataset Recommendations in a Living Lab</a></strong>
+<br>
+<a href=/anthology/people/j/j%C3%BCri+keller/>Jüri Keller</a>
+|
+<a href=/anthology/people/l/leon+paul+mondrian+munz/>Leon Paul Mondrian Munz</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_12 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/LaiSBDP21a.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.12/>Analysing Moral Beliefs for Detecting Hate Speech Spreaders on Twitter</a></strong>
+<br>
+<a href=/anthology/people/m/mirko+lai/>Mirko Lai</a>
+|
+<a href=/anthology/people/m/marco+antonio+stranisci/>Marco Antonio Stranisci</a>
+|
+<a href=/anthology/people/c/cristina+bosco/>Cristina Bosco</a>
+|
+<a href=/anthology/people/r/rossana+damiano/>Rossana Damiano</a>
+|
+<a href=/anthology/people/v/viviana+patti/>Viviana Patti</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_13 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/AlhamzehBEMBK21.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.13/>Query Expansion, Argument Mining and Document Scoring for an Efficient Question Answering System</a></strong>
+<br>
+<a href=/anthology/people/a/alaa+alhamzeh/>Alaa Alhamzeh</a>
+|
+<a href=/anthology/people/m/mohamed+bouhaouel/>Mohamed Bouhaouel</a>
+|
+<a href=/anthology/people/e/el%C3%B6d+egyed-zsigmond/>Elöd Egyed-Zsigmond</a>
+|
+<a href=/anthology/people/j/jelena+mitrovic/>Jelena Mitrovic</a>
+|
+<a href=/anthology/people/l/lionel+brunie/>Lionel Brunie</a>
+|
+<a href=/anthology/people/h/harald+kosch/>Harald Kosch</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_14 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/ReuschTL21a.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.14/>Transformer-Encoder-Based Mathematical Information Retrieval</a></strong>
+<br>
+<a href=/anthology/people/a/anja+reusch/>Anja Reusch</a>
+|
+<a href=/anthology/people/m/maik+thiele/>Maik Thiele</a>
+|
+<a href=/anthology/people/w/wolfgang+lehner/>Wolfgang Lehner</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_15 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/NicolsonDK21a.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.15/>ImageCLEF 2021 Best of Labs: The Curious Case of Caption Generation for Medical Images</a></strong>
+<br>
+<a href=/anthology/people/a/aaron+nicolson/>Aaron Nicolson</a>
+|
+<a href=/anthology/people/j/jason+dowling/>Jason Dowling</a>
+|
+<a href=/anthology/people/b/bevan+koopman/>Bevan Koopman</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_16 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/YoonYSSJKK21a.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.16/>Data-Centric and Model-Centric Approaches for Biomedical Question Answering</a></strong>
+<br>
+<a href=/anthology/people/w/wonjin+yoon/>Wonjin Yoon</a>
+|
+<a href=/anthology/people/j/jaehyo+yoo/>Jaehyo Yoo</a>
+|
+<a href=/anthology/people/s/sumin+seo/>Sumin Seo</a>
+|
+<a href=/anthology/people/m/mujeen+sung/>Mujeen Sung</a>
+|
+<a href=/anthology/people/m/minbyul+jeong/>Minbyul Jeong</a>
+|
+<a href=/anthology/people/g/gangwoo+kim/>Gangwoo Kim</a>
+|
+<a href=/anthology/people/j/jaewoo+kang/>Jaewoo Kang</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_17 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/NunzioV21a.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.17/>Did I Miss Anything? A Study on Ranking Fusion and Manual Query Rewriting in Consumer Health Search</a></strong>
+<br>
+<a href=/anthology/people/g/giorgio+maria+di+nunzio/>Giorgio Maria Di Nunzio</a>
+|
+<a href=/anthology/people/f/federica+vezzani/>Federica Vezzani</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_18 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/ParaparMLC22a.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.18/>Overview of eRisk 2022: Early Risk Prediction on the Internet</a></strong>
+<br>
+<a href=/anthology/people/j/javier+parapar/>Javier Parapar</a>
+|
+<a href=/anthology/people/p/patricia+mart%C3%ADn-rodilla/>Patricia Martín-Rodilla</a>
+|
+<a href=/anthology/people/d/david+e.+losada/>David E. Losada</a>
+|
+<a href=/anthology/people/f/fabio+crestani/>Fabio Crestani</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_19 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/JolyGKPLCDSDGPV22.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.19/>Overview of LifeCLEF 2022: An Evaluation of Machine-Learning Based Species Identification and Species Distribution Prediction</a></strong>
+<br>
+<a href=/anthology/people/a/alexis+joly/>Alexis Joly</a>
+|
+<a href=/anthology/people/h/herv%C3%A9+go%C3%ABau/>Hervé Goëau</a>
+|
+<a href=/anthology/people/s/stefan+kahl/>Stefan Kahl</a>
+|
+<a href=/anthology/people/l/luk%C3%A1s+picek/>Lukás Picek</a>
+|
+<a href=/anthology/people/t/titouan+lorieul/>Titouan Lorieul</a>
+|
+<a href=/anthology/people/e/elijah+cole/>Elijah Cole</a>
+|
+<a href=/anthology/people/b/benjamin+deneu/>Benjamin Deneu</a>
+|
+<a href=/anthology/people/m/maximilien+servajean/>Maximilien Servajean</a>
+|
+<a href=/anthology/people/a/andrew+durso/>Andrew Durso</a>
+|
+<a href=/anthology/people/h/herv%C3%A9+glotin/>Hervé Glotin</a>
+|
+<a href=/anthology/people/r/robert+planqu%C3%A9/>Robert Planqué</a>
+|
+<a href=/anthology/people/w/willem-pier+vellinga/>Willem-Pier Vellinga</a>
+|
+<a href=/anthology/people/a/amanda+navine/>Amanda Navine</a>
+|
+<a href=/anthology/people/h/holger+klinck/>Holger Klinck</a>
+|
+<a href=/anthology/people/t/tom+denton/>Tom Denton</a>
+|
+<a href=/anthology/people/i/ivan+eggel/>Ivan Eggel</a>
+|
+<a href=/anthology/people/p/pierre+bonnet/>Pierre Bonnet</a>
+|
+<a href=/anthology/people/m/milan+sulc/>Milan Sulc</a>
+|
+<a href=/anthology/people/m/marek+hr%C3%BAz/>Marek Hrúz</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_20 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/MansouriNAOZ22a.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.20/>Overview of ARQMath-3 (2022): Third CLEF Lab on Answer Retrieval for Questions on Math</a></strong>
+<br>
+<a href=/anthology/people/b/behrooz+mansouri/>Behrooz Mansouri</a>
+|
+<a href=/anthology/people/v/v%C3%ADt+novotn%C3%BD/>Vít Novotný</a>
+|
+<a href=/anthology/people/a/anurag+agarwal/>Anurag Agarwal</a>
+|
+<a href=/anthology/people/d/douglas+w.+oard/>Douglas W. Oard</a>
+|
+<a href=/anthology/people/r/richard+zanibbi/>Richard Zanibbi</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_21 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/BondarenkoFKSGB22a.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.21/>Overview of Touché 2022: Argument Retrieval</a></strong>
+<br>
+<a href=/anthology/people/a/alexander+bondarenko+0001/>Alexander Bondarenko</a>
+|
+<a href=/anthology/people/m/maik+fr%C3%B6be/>Maik Fröbe</a>
+|
+<a href=/anthology/people/j/johannes+kiesel/>Johannes Kiesel</a>
+|
+<a href=/anthology/people/s/shahbaz+syed/>Shahbaz Syed</a>
+|
+<a href=/anthology/people/t/timon+gurcke/>Timon Gurcke</a>
+|
+<a href=/anthology/people/m/meriem+beloucif/>Meriem Beloucif</a>
+|
+<a href=/anthology/people/a/alexander+panchenko/>Alexander Panchenko</a>
+|
+<a href=/anthology/people/c/chris+biemann/>Chris Biemann</a>
+|
+<a href=/anthology/people/b/benno+stein+0001/>Benno Stein</a>
+|
+<a href=/anthology/people/h/henning+wachsmuth/>Henning Wachsmuth</a>
+|
+<a href=/anthology/people/m/martin+potthast/>Martin Potthast</a>
+|
+<a href=/anthology/people/m/matthias+hagen/>Matthias Hagen</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_22 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/NentidisKVKMGKP22.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.22/>Overview of BioASQ 2022: The Tenth BioASQ Challenge on Large-Scale Biomedical Semantic Indexing and Question Answering</a></strong>
+<br>
+<a href=/anthology/people/a/anastasios+nentidis/>Anastasios Nentidis</a>
+|
+<a href=/anthology/people/g/georgios+katsimpras/>Georgios Katsimpras</a>
+|
+<a href=/anthology/people/e/eirini+vandorou/>Eirini Vandorou</a>
+|
+<a href=/anthology/people/a/anastasia+krithara/>Anastasia Krithara</a>
+|
+<a href=/anthology/people/a/antonio+miranda-escalada/>Antonio Miranda-Escalada</a>
+|
+<a href=/anthology/people/l/luis+gasc%C3%B3/>Luis Gascó</a>
+|
+<a href=/anthology/people/m/martin+krallinger/>Martin Krallinger</a>
+|
+<a href=/anthology/people/g/georgios+paliouras/>Georgios Paliouras</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_23 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/EsuliMSS22.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.23/>A Concise Overview of LeQua@CLEF 2022: Learning to Quantify</a></strong>
+<br>
+<a href=/anthology/people/a/andrea+esuli/>Andrea Esuli</a>
+|
+<a href=/anthology/people/a/alejandro+moreo/>Alejandro Moreo</a>
+|
+<a href=/anthology/people/f/fabrizio+sebastiani+0001/>Fabrizio Sebastiani</a>
+|
+<a href=/anthology/people/g/gianluca+sperduti/>Gianluca Sperduti</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_24 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/BevendorffCFHKK22.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.24/>Overview of PAN 2022: Authorship Verification, Profiling Irony and Stereotype Spreaders, and Style Change Detection</a></strong>
+<br>
+<a href=/anthology/people/j/janek+bevendorff/>Janek Bevendorff</a>
+|
+<a href=/anthology/people/b/berta+chulvi/>Berta Chulvi</a>
+|
+<a href=/anthology/people/e/elisabetta+fersini/>Elisabetta Fersini</a>
+|
+<a href=/anthology/people/a/annina+heini/>Annina Heini</a>
+|
+<a href=/anthology/people/m/mike+kestemont/>Mike Kestemont</a>
+|
+<a href=/anthology/people/k/krzysztof+kredens/>Krzysztof Kredens</a>
+|
+<a href=/anthology/people/m/maximilian+mayerl/>Maximilian Mayerl</a>
+|
+<a href=/anthology/people/r/reynier+ortega-bueno/>Reynier Ortega-Bueno</a>
+|
+<a href=/anthology/people/p/piotr+pezik/>Piotr Pezik</a>
+|
+<a href=/anthology/people/m/martin+potthast/>Martin Potthast</a>
+|
+<a href=/anthology/people/f/francisco+rangel/>Francisco Rangel</a>
+|
+<a href=/anthology/people/p/paolo+rosso/>Paolo Rosso</a>
+|
+<a href=/anthology/people/e/efstathios+stamatatos/>Efstathios Stamatatos</a>
+|
+<a href=/anthology/people/b/benno+stein+0001/>Benno Stein</a>
+|
+<a href=/anthology/people/m/matti+wiegmann/>Matti Wiegmann</a>
+|
+<a href=/anthology/people/m/magdalena+wolska/>Magdalena Wolska</a>
+|
+<a href=/anthology/people/e/eva+zangerle/>Eva Zangerle</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_25 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/GuazzoTLHDFNSVT22a.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.25/>Intelligent Disease Progression Prediction: Overview of iDPP@CLEF 2022</a></strong>
+<br>
+<a href=/anthology/people/a/alessandro+guazzo/>Alessandro Guazzo</a>
+|
+<a href=/anthology/people/i/isotta+trescato/>Isotta Trescato</a>
+|
+<a href=/anthology/people/e/enrico+longato/>Enrico Longato</a>
+|
+<a href=/anthology/people/e/enidia+hazizaj/>Enidia Hazizaj</a>
+|
+<a href=/anthology/people/d/dennis+dosso/>Dennis Dosso</a>
+|
+<a href=/anthology/people/g/guglielmo+faggioli/>Guglielmo Faggioli</a>
+|
+<a href=/anthology/people/g/giorgio+maria+di+nunzio/>Giorgio Maria Di Nunzio</a>
+|
+<a href=/anthology/people/g/gianmaria+silvello/>Gianmaria Silvello</a>
+|
+<a href=/anthology/people/m/martina+vettoretti/>Martina Vettoretti</a>
+|
+<a href=/anthology/people/e/erica+tavazzi/>Erica Tavazzi</a>
+|
+<a href=/anthology/people/c/chiara+roversi/>Chiara Roversi</a>
+|
+<a href=/anthology/people/p/piero+fariselli/>Piero Fariselli</a>
+|
+<a href=/anthology/people/s/sara+c.+madeira/>Sara C. Madeira</a>
+|
+<a href=/anthology/people/m/mamede+de+carvalho/>Mamede de Carvalho</a>
+|
+<a href=/anthology/people/m/marta+gromicho/>Marta Gromicho</a>
+|
+<a href=/anthology/people/a/adriano+chi%C3%B2/>Adriano Chiò</a>
+|
+<a href=/anthology/people/u/umberto+manera/>Umberto Manera</a>
+|
+<a href=/anthology/people/a/arianna+dagliati/>Arianna Dagliati</a>
+|
+<a href=/anthology/people/g/giovanni+birolo/>Giovanni Birolo</a>
+|
+<a href=/anthology/people/h/helena+aidos/>Helena Aidos</a>
+|
+<a href=/anthology/people/b/barbara+di+camillo/>Barbara Di Camillo</a>
+|
+<a href=/anthology/people/n/nicola+ferro+0001/>Nicola Ferro</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_26 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/EhrmannRNDC22a.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.26/>Overview of HIPE-2022: Named Entity Recognition and Linking in Multilingual Historical Documents</a></strong>
+<br>
+<a href=/anthology/people/m/maud+ehrmann/>Maud Ehrmann</a>
+|
+<a href=/anthology/people/m/matteo+romanello/>Matteo Romanello</a>
+|
+<a href=/anthology/people/s/sven+najem-meyer/>Sven Najem-Meyer</a>
+|
+<a href=/anthology/people/a/antoine+doucet/>Antoine Doucet</a>
+|
+<a href=/anthology/people/s/simon+clematide/>Simon Clematide</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_27 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/ErmakovaMRBBMCA22.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.27/>Overview of JOKER@CLEF 2022: Automatic Wordplay and Humour Translation Workshop</a></strong>
+<br>
+<a href=/anthology/people/l/liana+ermakova/>Liana Ermakova</a>
+|
+<a href=/anthology/people/t/tristan+miller/>Tristan Miller</a>
+|
+<a href=/anthology/people/f/fabio+regattin/>Fabio Regattin</a>
+|
+<a href=/anthology/people/a/anne-gwenn+bosser/>Anne-Gwenn Bosser</a>
+|
+<a href=/anthology/people/c/claudine+borg/>Claudine Borg</a>
+|
+<a href=/anthology/people/%C3%A9/%C3%A9lise+mathurin/>Élise Mathurin</a>
+|
+<a href=/anthology/people/g/ga%C3%ABlle+le+corre/>Gaëlle Le Corre</a>
+|
+<a href=/anthology/people/s/s%C3%ADlvia+ara%C3%BAjo/>Sílvia Araújo</a>
+|
+<a href=/anthology/people/r/radia+hannachi/>Radia Hannachi</a>
+|
+<a href=/anthology/people/j/julien+boccou/>Julien Boccou</a>
+|
+<a href=/anthology/people/a/albin+digue/>Albin Digue</a>
+|
+<a href=/anthology/people/a/aurianne+damoy/>Aurianne Damoy</a>
+|
+<a href=/anthology/people/b/beno%C3%AEt+jeanjean/>Benoît Jeanjean</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_28 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/ErmakovaSKHONAH22.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.28/>Overview of the CLEF 2022 SimpleText Lab: Automatic Simplification of Scientific Texts</a></strong>
+<br>
+<a href=/anthology/people/l/liana+ermakova/>Liana Ermakova</a>
+|
+<a href=/anthology/people/e/eric+sanjuan/>Eric SanJuan</a>
+|
+<a href=/anthology/people/j/jaap+kamps/>Jaap Kamps</a>
+|
+<a href=/anthology/people/s/st%C3%A9phane+huet/>Stéphane Huet</a>
+|
+<a href=/anthology/people/i/irina+ovchinnikova/>Irina Ovchinnikova</a>
+|
+<a href=/anthology/people/d/diana+nurbakova/>Diana Nurbakova</a>
+|
+<a href=/anthology/people/s/s%C3%ADlvia+ara%C3%BAjo/>Sílvia Araújo</a>
+|
+<a href=/anthology/people/r/radia+hannachi/>Radia Hannachi</a>
+|
+<a href=/anthology/people/%C3%A9/%C3%A9lise+mathurin/>Élise Mathurin</a>
+|
+<a href=/anthology/people/p/patrice+bellot/>Patrice Bellot</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_29 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/NakovBMASMMCKZL22.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.29/>Overview of the CLEF-2022 CheckThat! Lab on Fighting the COVID-19 Infodemic and Fake News Detection</a></strong>
+<br>
+<a href=/anthology/people/p/preslav+nakov/>Preslav Nakov</a>
+|
+<a href=/anthology/people/a/alberto+barr%C3%B3n-cede%C3%B1o/>Alberto Barrón-Cedeño</a>
+|
+<a href=/anthology/people/g/giovanni+da+san+martino/>Giovanni Da San Martino</a>
+|
+<a href=/anthology/people/f/firoj+alam/>Firoj Alam</a>
+|
+<a href=/anthology/people/j/julia+maria+stru%C3%9F/>Julia Maria Struß</a>
+|
+<a href=/anthology/people/t/thomas+mandl+0001/>Thomas Mandl</a>
+|
+<a href=/anthology/people/r/rub%C3%A9n+m%C3%ADguez/>Rubén Míguez</a>
+|
+<a href=/anthology/people/t/tommaso+caselli/>Tommaso Caselli</a>
+|
+<a href=/anthology/people/m/m%C3%BCcahid+kutlu/>Mücahid Kutlu</a>
+|
+<a href=/anthology/people/w/wajdi+zaghouani/>Wajdi Zaghouani</a>
+|
+<a href=/anthology/people/c/chengkai+li/>Chengkai Li</a>
+|
+<a href=/anthology/people/s/shaden+shaar/>Shaden Shaar</a>
+|
+<a href=/anthology/people/g/gautam+kishore+shahi/>Gautam Kishore Shahi</a>
+|
+<a href=/anthology/people/h/hamdy+mubarak/>Hamdy Mubarak</a>
+|
+<a href=/anthology/people/a/alex+nikolov/>Alex Nikolov</a>
+|
+<a href=/anthology/people/n/nikolay+babulkov/>Nikolay Babulkov</a>
+|
+<a href=/anthology/people/y/yavuz+selim+kartal/>Yavuz Selim Kartal</a>
+|
+<a href=/anthology/people/m/michael+wiegand/>Michael Wiegand</a>
+|
+<a href=/anthology/people/m/melanie+siegel/>Melanie Siegel</a>
+|
+<a href=/anthology/people/j/juliane+k%C3%B6hler/>Juliane Köhler</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_30 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/LiFHYADTAZBV22.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.30/>Overview of ChEMU 2022 Evaluation Campaign: Information Extraction in Chemical Patents</a></strong>
+<br>
+<a href=/anthology/people/y/yuan+li/>Yuan Li</a>
+|
+<a href=/anthology/people/b/biaoyan+fang/>Biaoyan Fang</a>
+|
+<a href=/anthology/people/j/jiayuan+he+0002/>Jiayuan He</a>
+|
+<a href=/anthology/people/h/hiyori+yoshikawa/>Hiyori Yoshikawa</a>
+|
+<a href=/anthology/people/s/saber+a.+akhondi/>Saber A. Akhondi</a>
+|
+<a href=/anthology/people/c/christian+druckenbrodt/>Christian Druckenbrodt</a>
+|
+<a href=/anthology/people/c/camilo+thorne/>Camilo Thorne</a>
+|
+<a href=/anthology/people/z/zubair+afzal/>Zubair Afzal</a>
+|
+<a href=/anthology/people/z/zenan+zhai/>Zenan Zhai</a>
+|
+<a href=/anthology/people/t/timothy+baldwin/>Timothy Baldwin</a>
+|
+<a href=/anthology/people/k/karin+verspoor/>Karin Verspoor</a>
+</span>
+</p>
+<p class="d-sm-flex align-items-stretch">
+<span class="d-block mr-2 text-nowrap list-button-row"><a target=_blank class="badge badge-primary align-middle mr-1" href=https://dx.doi.org/10.1007/978-3-031-13643-6_31 data-toggle=tooltip data-placement=top title="Open at doi.org">
+doi
+</a><a target=_blank class="badge badge-secondary align-middle mr-1" href=https://dblp.org/rec/conf/clef/IonescuMPRAHFBB22.html data-toggle=tooltip data-placement=top title="Open at dblp.org">
+dblp
+</a><br class="d-none d-sm-inline-block"></span>
+<span class=d-block>
+<strong><a class=align-middle href=/anthology/2022.clef_conference-2022.31/>Overview of the ImageCLEF 2022: Multimedia Retrieval in Medical, Social Media and Nature Applications</a></strong>
+<br>
+<a href=/anthology/people/b/bogdan+ionescu/>Bogdan Ionescu</a>
+|
+<a href=/anthology/people/h/henning+m%C3%BCller/>Henning Müller</a>
+|
+<a href=/anthology/people/r/renaud+p%C3%A9teri/>Renaud Péteri</a>
+|
+<a href=/anthology/people/j/johannes+r%C3%BCckert/>Johannes Rückert</a>
+|
+<a href=/anthology/people/a/asma+ben+abacha/>Asma Ben Abacha</a>
+|
+<a href=/anthology/people/a/alba+garcia+seco+de+herrera/>Alba Garcia Seco de Herrera</a>
+|
+<a href=/anthology/people/c/christoph+m.+friedrich/>Christoph M. Friedrich</a>
+|
+<a href=/anthology/people/l/louise+bloch/>Louise Bloch</a>
+|
+<a href=/anthology/people/r/raphael+br%C3%BCngel/>Raphael Brüngel</a>
+|
+<a href=/anthology/people/a/ahmad+idrissi-yaghir/>Ahmad Idrissi-Yaghir</a>
+|
+<a href=/anthology/people/h/henning+sch%C3%A4fer/>Henning Schäfer</a>
+|
+<a href=/anthology/people/s/serge+kozlovski/>Serge Kozlovski</a>
+|
+<a href=/anthology/people/y/yashin+dicente+cid/>Yashin Dicente Cid</a>
+|
+<a href=/anthology/people/v/vassili+kovalev/>Vassili Kovalev</a>
+|
+<a href=/anthology/people/l/liviu-daniel+stefan/>Liviu-Daniel Stefan</a>
+|
+<a href=/anthology/people/m/mihai+gabriel+constantin/>Mihai Gabriel Constantin</a>
+|
+<a href=/anthology/people/m/mihai+dogariu/>Mihai Dogariu</a>
+|
+<a href=/anthology/people/a/adrian+popescu+0001/>Adrian Popescu</a>
+|
+<a href=/anthology/people/j/j%C3%A9r%C3%B4me+deshayes-chossart/>Jérôme Deshayes-Chossart</a>
+|
+<a href=/anthology/people/h/hugo+schindler/>Hugo Schindler</a>
+|
+<a href=/anthology/people/j/jon+chamberlain/>Jon Chamberlain</a>
+|
+<a href=/anthology/people/a/antonio+campello/>Antonio Campello</a>
+|
+<a href=/anthology/people/a/adrian+f.+clark/>Adrian F. Clark</a>
+</span>
+</p>
+</div></section>
+</div>
+<div style=flex-grow:1></div>
+<footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5">
+<div class=container-fluid>
+<p class="text-muted small col-12 px-0 px-sm-3">
+<span style=float:left>
+<a style=color:#6c757d href=/anthology/info/credits/>Credits</a>&nbsp;&nbsp;•&nbsp;&nbsp;<a style=color:#6c757d href=https://github.com/ir-anthology/ir-anthology/blob/master/CONTRIBUTE.md>Contribute</a>
+</span>
+<span style=float:right>
+©2023 <a style=color:#6c757d href=https://webis.de/>Webis Group</a>&nbsp;&nbsp;•&nbsp;&nbsp;<a href=https://github.com/ir-anthology/ir-anthology><svg width="16" height="16" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 1C5.03 1 1 5.03 1 10c0 3.98 2.58 7.35 6.16 8.54C7.61 18.62 7.77 18.34 7.77 18.11 7.77 17.9 7.76 17.33 7.76 16.58 5.26 17.12 4.73 15.37 4.73 15.37c-.41-1.04-1-1.32-1-1.32C2.91 13.5 3.79 13.5 3.79 13.5 4.69 13.56 5.17 14.43 5.17 14.43c.8 1.37 2.11.98 2.62.75C7.87 14.6 8.1 14.2 8.36 13.98c-2-.23-4.1-1-4.1-4.45C4.26 8.55 4.61 7.74 5.19 7.11 5.1 6.88 4.79 5.97 5.28 4.73c0 0 .76-.24 2.47.92C8.47 5.45 9.24 5.35 10 5.35S11.53 5.45 12.25 5.65c1.72-1.17 2.47-.92 2.47-.92C15.21 5.97 14.9 6.88 14.81 7.11c.58.63.92 1.43.92 2.42.0 3.46-2.1 4.22-4.11 4.44C11.94 14.25 12.23 14.8 12.23 15.64 12.23 16.84 12.22 17.81 12.22 18.11 12.22 18.35 12.38 18.63 12.84 18.54 16.42 17.35 19 13.98 19 10c0-4.97-4.03-9-9-9z" fill="#6c757d"/></svg>
+</a>&nbsp;<a href=https://twitter.com/IRanthology><svg width="18" height="18" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M19 4.74C18.339 5.029 17.626 5.229 16.881 5.32 17.644 4.86 18.227 4.139 18.503 3.28 17.79 3.7 17.001 4.009 16.159 4.17 15.485 3.45 14.526 3 13.464 3 11.423 3 9.771 4.66 9.771 6.7 9.771 6.99 9.804 7.269 9.868 7.539c-3.073-.159-5.792-1.62-7.614-3.86C1.936 4.219 1.754 4.86 1.754 5.539c0 1.281.651 2.411 1.643 3.071C2.79 8.589 2.22 8.429 1.723 8.149V8.189c0 1.789 1.274 3.289 2.963 3.631C4.376 11.899 4.049 11.939 3.713 11.939 3.475 11.939 3.245 11.919 3.018 11.88c.472 1.469 1.834 2.539 3.451 2.569-1.264.98-2.857 1.57-4.587 1.57C1.583 16.019 1.29 16.009 1 15.969c1.635 1.05 3.576 1.66 5.662 1.66 6.792.0 10.508-5.629 10.508-10.5C17.17 6.969 17.166 6.809 17.157 6.649 17.879 6.129 18.504 5.478 19 4.74" fill="#6c757d"/></svg>
+</a>&nbsp;&nbsp;•&nbsp;&nbsp;<a style=color:#6c757d href=https://webis.de/people.html>Contact</a>&nbsp;&nbsp;•&nbsp;&nbsp;<a style=color:#6c757d href=https://webis.de/impressum.html>Impressum / Terms / Privacy</a>
+</span>
+</p>
+<br>
+</div>
+</footer>
+<script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script>
+<script src=/anthology/anthology/js/bootstrap.min.js></script>
+<script>$(function(){$('[data-toggle="tooltip"]').tooltip(),$("#toggle-all-abstracts")&&($("#toggle-all-abstracts").click(function(){var a=$("#toggle-all-abstracts");a.attr("disabled",!0),a.attr("data-toggle-state")=="hide"?($(".abstract-collapse").collapse('show'),a.attr("data-toggle-state","show")):($(".abstract-collapse").collapse('hide'),a.attr("data-toggle-state","hide")),a.attr("disabled",!1)}),$("#toggle-all-abstracts").attr("disabled",!1))})</script>
+</body>
+</html>
